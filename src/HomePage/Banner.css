@@ -1,0 +1,23 @@
+.banner {
+    height: 90vh;
+}
+.banner-img img {
+    width: 100%;
+    height: 90vh;
+}
+
+.banner-heading {
+    position: relative;
+    text-align: center;
+    bottom: 400px;
+}
+
+.banner-heading h2 {
+    font-weight: 700;
+}
+
+.banner-heading p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+

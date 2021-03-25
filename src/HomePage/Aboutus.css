@@ -1,0 +1,19 @@
+.aboutus h1 {
+    text-align: center;
+}
+
+.about img {
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.about-content p {
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}

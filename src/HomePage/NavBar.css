@@ -1,10 +1,49 @@
-:root {
-    --Green: #16697a;
-    --Cream: #ede7e3;
-    --Orange: #ffa62b;
+.navBar a.navbar-brand {
+    color: white;
+    font-size: 25px;
 }
 
-.brandName {
+a.nav-link
+{
+    color:white;
+    padding-right: 20px !important;
+}
+
+a.nav-link:hover {
+    padding-right: 20px;
+    color: var(--SkyBlue);
+}
+
+.navBar.active{
+    transition: 0.5s smooth;
+    background-color:var(--Blue);
+}
+
+.nav-img {
+    height: 70px;
+    width: 70px;
+    padding-right: 5px;
+}
+/* 
+
+.navbutton{
+    margin-bottom: 3px;
+     margin-right: 100px;
+ }
+
+.navbutton a
+{
+    padding: 10px;
+    color:var(--Cream);
+    font-size: 20px;
+}
+
+.navbutton a:hover{
+    text-decoration: none;
+    color: var(--SkyBlue);
+   } */
+
+/* .brandName {
     display: flex;
     margin-top: 3px;
     margin-left: 100px;
@@ -50,5 +89,5 @@
 
 .navbutton img {
     background-color: var(--Cream);
-}
+} */
 

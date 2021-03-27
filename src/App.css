@@ -1,7 +1,9 @@
 :root {
-  --Green: #16697a;
-  --Cream: #ede7e3;
-  --Orange: #ffa62b;
+  --Black: #0b0c10;
+  --Blue: #1f2833;
+  --Cream: #c5c6c7;
+  --SkyBlue: #66f0f1;
+  --Green: #45a29e;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -16,7 +18,7 @@
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg,#ffa62b, #ede7e3);
+    background: linear-gradient(180deg, var(--Black), var(--Cream));
     border-radius: 30px;
     box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%),
      inset -2px -2px 2px rgb(0 0 0 / 25%);

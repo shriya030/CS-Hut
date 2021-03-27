@@ -1,12 +1,13 @@
 import React from 'react'
 import './Aboutus.css';
+import Logo from './logo.png';
 
 function Aboutus() {
     return (
         <div className='aboutus'>
             <h1>About us</h1>
             <div className="about">
-                <img src="https://play-lh.googleusercontent.com/IeNJWoKYx1waOhfWF6TiuSiWBLfqLb18lmZYXSgsH1fvb8v1IYiZr5aYWe0Gxu-pVZX3" alt='' />
+                <img src={Logo} alt='' />
                 <div className="about-content">
                     <h1>Who we are</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

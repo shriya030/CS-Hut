@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Resources from './Components/Resources';
+import TechLang from './Components/TechLang';
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,7 +21,7 @@ ReactDOM.render(
   </Switch>   
      
       <Switch>
-         <Route exact path ="/resources" component ={Resources} />
+         <Route exact path ="/techLang" component ={TechLang} />
       </Switch>
   </Router>
     

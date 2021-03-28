@@ -9,7 +9,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Resources from './Components/Resources';
+import TechLang from './Components/TechLang';
 
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
       <Router>
       <NavBar />
       <Switch>
-          <Route exact={true} path="/resources">
-            <Resources />
+          <Route exact={true} path="/techLang">
+            <TechLang />
           </Route>
           </Switch>
           </Router>

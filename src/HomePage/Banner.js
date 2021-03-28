@@ -48,7 +48,7 @@ function Banner() {
                    > 
                 </Typed> </p>
                 <React.Fragment>
-                  <Link to='/resources'>
+                  <Link to='/techLang'>
              <button variant="contained">Let's Begin</button>
              </Link>
              </React.Fragment>

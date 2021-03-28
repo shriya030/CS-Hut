@@ -30,7 +30,7 @@ function NavBar() {
   <Navbar.Toggle aria-controls="basic-navbar-nav" className='custom-toggler' />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
-    <FaHome /><Nav.Link href="#home">Home</Nav.Link>
+    <FaHome /><Nav.Link href="/">Home</Nav.Link>
     <MdComputer /><Nav.Link href="#link">Resources</Nav.Link>
     <FaInfoCircle /><Nav.Link href="#about">About</Nav.Link>
     <MdContactMail /><Nav.Link href="#contact">Contact</Nav.Link>

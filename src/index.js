@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TechLang from './Components/TechLang';
+import Languages from './Components/Languages';
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +23,10 @@ ReactDOM.render(
      
       <Switch>
          <Route exact path ="/techLang" component ={TechLang} />
+      </Switch>
+
+      <Switch>
+        <Route exact path = "/Languages" component = {Languages} />
       </Switch>
   </Router>
     

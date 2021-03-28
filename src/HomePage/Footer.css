@@ -4,7 +4,7 @@
     text-align: center;
     display: flex; 
     justify-content:space-around;
-    height: 260px;
+    height: 45vh;
     background-color:var(--Blue);
     color:white;
     
@@ -26,10 +26,8 @@
     cursor: pointer;
 }
 
-.line
-{
-    border: 1px solid white;
-    width:120%;
+.list li {
+    border-bottom: 1px solid white;
 }
 
 .outline

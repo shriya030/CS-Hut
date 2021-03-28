@@ -1,99 +1,40 @@
-import React from 'react';
-import NavBar from '../HomePage/NavBar';
-import './TechLang.css';
+import React from 'react'
+import NavBar from '../HomePage/NavBar'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './TechLang.css'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
-function TechLang() {
+
+function TechLang()
+{
     return (
-        <div>
-            <NavBar />
-            <div class='techLang' >
-            <div class="flip-card-container" >
-  <div class="flip-card">
+        <div className='divider'>
+        <NavBar className='navbar'/>
+        <div className='ques'>What would you like to get help with today?</div>
+        <div className='resources rheading'>
+        <React.Fragment>
+         <Link to="/Languages" style={{ textDecoration: 'none',color:'white' }}>
+          Languages
+          <p className='para'>Explore a variety of learning resources based on the choice of your interest</p>
+         </Link>
+        </React.Fragment>
+        </div>
 
-    <div class="card-front">
-      <figure>
-        <div class="img-bg"></div>
-        <img src="https://www.slashcoding.com/wp-content/uploads/2013/10/Programmer.jpg" alt="Brohm Lake" />
-        <figcaption>Brohm Lake</figcaption>
-      </figure>
-
-      <ul>
-        <li>Detail 1</li>
-        <li>Detail 2</li>
-        <li>Detail 3</li>
-        <li>Detail 4</li>
-        <li>Detail 5</li>
-      </ul>
-    </div>
-
-    <div class="card-back">
-      <figure>
-        <div class="img-bg"></div>
-        <img src="https://www.slashcoding.com/wp-content/uploads/2013/10/Programmer.jpg" alt="Brohm Lake" />
-      </figure>
-
-      <button>Book</button>
-
-      <div class="design-container">
-        <span class="design design--1"></span>
-        <span class="design design--2"></span>
-        <span class="design design--3"></span>
-        <span class="design design--4"></span>
-        <span class="design design--5"></span>
-        <span class="design design--6"></span>
-        <span class="design design--7"></span>
-        <span class="design design--8"></span>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-
-<div class="flip-card-container">
-  <div class="flip-card">
-
-    <div class="card-front">
-      <figure>
-        <div class="img-bg"></div>
-        <img src="https://www.slashcoding.com/wp-content/uploads/2013/10/Programmer.jpg" alt="Brohm Lake" />
-        <figcaption>Brohm Lake</figcaption>
-      </figure>
-
-      <ul>
-        <li>Detail 1</li>
-        <li>Detail 2</li>
-        <li>Detail 3</li>
-        <li>Detail 4</li>
-        <li>Detail 5</li>
-      </ul>
-    </div>
-
-    <div class="card-back">
-      <figure>
-        <div class="img-bg"></div>
-        <img src="https://www.slashcoding.com/wp-content/uploads/2013/10/Programmer.jpg" alt="Brohm Lake" />
-      </figure>
-
-      <button>Book</button>
-
-      <div class="design-container">
-        <span class="design design--1"></span>
-        <span class="design design--2"></span>
-        <span class="design design--3"></span>
-        <span class="design design--4"></span>
-        <span class="design design--5"></span>
-        <span class="design design--6"></span>
-        <span class="design design--7"></span>
-        <span class="design design--8"></span>
-      </div>
-    </div>
-
-  </div>
-</div>
-</div>
-
+        <div className='projects pheading'>
+        <React.Fragment>
+        {/* <Link> will essentially return a standard <a> tag, which is why we apply textDecoration rule there. */}
+        <Link to ='/Tech' style={{ textDecoration: 'none',color:'white' }}>
+           Technologies
+           <p className='para'>Discover a list of interesting topics on different domains</p>
+           </Link>
+        </React.Fragment>
+        </div>
+         
         </div>
     )
 }

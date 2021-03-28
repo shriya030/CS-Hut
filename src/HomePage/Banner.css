@@ -71,8 +71,9 @@ html {
 
   .banner-heading button:hover {
     transition: 0.2 smooth;
-    background-color: transparent;
-    color: var(--Black);
+    background-color: var(--Cream);
+    border: 2px solid var(--SkyBlue);
+    color: black;
   }
 
 .banner-heading {

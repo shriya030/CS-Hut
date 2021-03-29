@@ -1,28 +1,25 @@
-import React from 'react';
-import NavBar from '../HomePage/NavBar';
-import './Languages.css';
-import Languages from '../Data/Languages.json';
+import React from 'react'
+import './TechLang.css';
+import NavBar from '../HomePage/NavBar.js'
+import Technologies from '../Data/Technologies.json';
 import {Link} from 'react-router-dom';
-
-function TechLang() {
+function  ProjectIdeas() {
     return (
         <div>
             <NavBar />
             <div class='techLang' >
-            {Languages.map((lang) => (
+            {Technologies.map((tech) => (
               <div class="flip-card-container" >
   <div class="flip-card">
 
     <div class="card-front">
       <figure>
         <div class="img-bg"></div>
-        <img src={lang.image} alt="" />
-        <figcaption>{lang.name}</figcaption>
+        <img className='langpic techpic' src={tech.image} alt=""  />
+        <figcaption>{tech.name}</figcaption>
       </figure>
       <ul>
-        <p>
-          {lang.description}
-        </p>
+       <p>{tech.description}</p>
       </ul>
 
       
@@ -32,16 +29,17 @@ function TechLang() {
     <div class="card-back">
       <figure>
         <div class="img-bg"></div>
-        <img src={lang.image} alt="Brohm Lake" />
+        <img className='langpic' src={tech.image} alt="" />
       </figure>
 
-      <React.Fragment>
-      <Link to="/learncpp">
       <button>Learn</button>
-      </Link>
-      </React.Fragment>
-      
+      <React.Fragment>
+      <Link to ={tech.proj}>
       <button>Projects</button>
+      </Link>
+      
+      </React.Fragment>
+     
       
 
       <div class="design-container">
@@ -69,4 +67,4 @@ function TechLang() {
     )
 }
 
-export default TechLang;
+export default ProjectIdeas;

@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TechLang from './Components/TechLang';
 import Languages from './Components/Languages';
+import Tech from './Components/Tech';
+import Make from './Components/Make';
+import Learn from './Components/Learn';
 import {
   BrowserRouter as Router,
   Switch,
@@ -27,6 +30,18 @@ ReactDOM.render(
 
       <Switch>
         <Route exact path = "/Languages" component = {Languages} />
+      </Switch>
+
+      <Switch>
+        <Route exact path='/Tech' component={Tech} />
+      </Switch>
+
+      <Switch>
+        <Route exact path='/learncpp' component={Learn}/>
+      </Switch>
+
+      <Switch>
+      <Route exact path='/learnweb' component={Make}/>
       </Switch>
   </Router>
     

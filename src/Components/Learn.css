@@ -1,6 +1,3 @@
-body {
-  background: linear-gradient(180deg, var(--Black), var(--Cream)) fixed;
-}
 .neww {
   margin: 0;
   padding: 0;
@@ -9,6 +6,10 @@ body {
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, var(--Black), var(--Cream)) fixed;
 }
 
 .new {

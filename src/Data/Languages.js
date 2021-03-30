@@ -13,6 +13,13 @@ let languages = [
           "https://yt3.ggpht.com/ytc/AAUvwnjeHnMHZ7T341QLHqPhQPfsG6ugvg_SV6z6FkYqGw=s900-c-k-c0x00ffffff-no-rj",
         link:
           "https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL"
+      },
+      {
+        name: "Code With Harry",
+        image:
+          "https://yt3.ggpht.com/ytc/AAUvwnjeHnMHZ7T341QLHqPhQPfsG6ugvg_SV6z6FkYqGw=s900-c-k-c0x00ffffff-no-rj",
+        link:
+          "https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL"
       }
     ]
   },

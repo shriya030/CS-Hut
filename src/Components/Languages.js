@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../HomePage/NavBar";
 import "./Languages.css";
 import languages from "../Data/Languages.js";
 import { Link } from "react-router-dom";

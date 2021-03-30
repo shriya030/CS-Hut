@@ -37,10 +37,11 @@ function App() {
             exact
             path={lang.learnPath}
             key={i}
-            render={() =>
-              lang.learnContent.map(item => (
-                <Learn name={item.name} link={item.link} image={item.image} />
-              ))
+            render={
+              () => <Learn resources={lang.learnContent} />
+              // lang.learnContent.map(item => (
+              //   <Learn name={item.name} link={item.link} image={item.image} />
+              // ))
             }
           />
         ))}

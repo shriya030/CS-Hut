@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://fonts.googleapis.com/css?family=Lato");
 
-.techLang {
-	display: grid;
+.languages {
+  display: grid;
   grid-template-columns: auto auto auto;
   min-height: 100vh;
   padding: 40px;
@@ -27,7 +27,6 @@
 
 /* body */
 
-
 /* .flip-card-container */
 .flip-card-container {
   --hue: 150;
@@ -44,6 +43,11 @@
   perspective: 1000px;
 }
 
+.card-back a {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 /* .flip-card */
 .flip-card {
   width: inherit;
@@ -51,7 +55,7 @@
 
   position: relative;
   transform-style: preserve-3d;
-  transition: .6s .1s;
+  transition: 0.6s 0.1s;
 }
 
 /* hover and focus-within states */
@@ -128,19 +132,19 @@ figcaption {
   letter-spacing: 2px;
   word-spacing: 6px;
   text-align: right;
-  border: 1px solid var(--SkyBlue);
+  border: 2px solid var(--SkyBlue);
 
   position: absolute;
   top: 0;
   right: 12px;
 
   color: var(--white-1);
-  background: hsla(var(--hue), 25%, 10%, .5);
+  background: hsla(var(--hue), 25%, 10%, 0.5);
 }
 
 /* .img-bg */
 .img-bg {
-  background: hsla(var(--hue), 25%, 10%, .5);
+  background: hsla(var(--hue), 25%, 10%, 0.5);
 }
 
 .card-front .img-bg {
@@ -157,11 +161,11 @@ figcaption {
 
   width: 100%;
   height: 6px;
-  border: 1px solid var(--SkyBlue);
+  border: 2px solid var(--SkyBlue);
   border-left-color: transparent;
   border-right-color: transparent;
 
-  transition: .1s;
+  transition: 0.1s;
 }
 
 .card-back .img-bg {
@@ -218,7 +222,7 @@ li:not(:last-child)::after {
   height: 1px;
 
   background: currentColor;
-  opacity: .2;
+  opacity: 0.2;
 }
 
 /* button */
@@ -230,18 +234,17 @@ button {
   letter-spacing: 2px;
 
   padding: 9px 20px;
-  border: 1px solid var(--SkyBlue);
+  border: 2px solid var(--SkyBlue);
   border-radius: 1000px;
   background: transparent;
-  transition: .3s;
-
+  transition: 0.3s;
   cursor: pointer;
 }
 
 button:hover,
 button:focus {
   color: var(--SkyBlue);
-  background: hsla(var(--hue), 25%, 10%, .2);
+  background: hsla(var(--hue), 25%, 10%, 0.2);
   border-color: currentColor;
 }
 
@@ -252,7 +255,7 @@ button:active {
 /* .design-container */
 .design-container {
   --tr: 90;
-  --op: .5;
+  --op: 0.5;
 
   width: 100%;
   height: 100%;
@@ -273,7 +276,7 @@ button:active {
   position: absolute;
 
   opacity: var(--op);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .design--1,
@@ -287,7 +290,7 @@ button:active {
 .design--1,
 .design--2 {
   top: 0;
-  transform: translateY(calc((var(--tr) - (var(--tr) * 2)) * 1%))
+  transform: translateY(calc((var(--tr) - (var(--tr) * 2)) * 1%));
 }
 
 .design--1 {
@@ -301,7 +304,7 @@ button:active {
 .design--3,
 .design--4 {
   bottom: 0;
-  transform: translateY(calc((var(--tr) + (var(--tr) - var(--tr))) * 1%))
+  transform: translateY(calc((var(--tr) + (var(--tr) - var(--tr))) * 1%));
 }
 
 .design--3 {
@@ -337,7 +340,7 @@ button:active {
 .design--7,
 .design--8 {
   right: 0;
-  transform: translateX(calc((var(--tr) + (var(--tr) - var(--tr))) * 1%))
+  transform: translateX(calc((var(--tr) + (var(--tr) - var(--tr))) * 1%));
 }
 
 .design--7 {
@@ -349,18 +352,18 @@ button:active {
 }
 
 /* states */
-button:hover+.design-container,
-button:active+.design-container,
-button:focus+.design-container {
+button:hover + .design-container,
+button:active + .design-container,
+button:focus + .design-container {
   --tr: 20;
-  --op: .7;
+  --op: 0.7;
 }
 
 .abs-site-link {
   position: fixed;
   bottom: 20px;
   left: 20px;
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
   font-size: 16px;
-  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
 }

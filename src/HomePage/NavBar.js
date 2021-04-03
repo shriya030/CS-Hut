@@ -30,7 +30,7 @@ function NavBar() {
           variant="dark"
           className={NavBar ? "navBar active" : "navBar"}
         >
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img src={NavLogo} alt="" className="nav-img" />
             CS Hut
           </Navbar.Brand>
@@ -42,12 +42,16 @@ function NavBar() {
             <Nav className="ml-auto">
               <FaHome />
               <Nav.Link href="/">Home</Nav.Link>
+              <div className="borderbottom"></div>
               <MdComputer />
               <Nav.Link href="#link">Resources</Nav.Link>
+              <div className="borderbottom"></div>
               <FaInfoCircle />
               <Nav.Link href="#about">About</Nav.Link>
+              <div className="borderbottom"></div>
               <MdContactMail />
               <Nav.Link href="#contact">Contact</Nav.Link>
+              <div className="borderbottom"></div>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

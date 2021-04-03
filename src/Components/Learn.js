@@ -18,7 +18,7 @@ function Learn(props) {
               <div class="details">
                 <h2>{resource.name}</h2>
                 <a className="harry" href={resource.image}>
-                  Start Learning !
+                  {resource.title}
                 </a>
               </div>
             </div>

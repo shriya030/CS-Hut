@@ -1,12 +1,11 @@
 import React from "react";
-import "./TechLang.css";
-import NavBar from "../HomePage/NavBar.js";
+import "./Tech.css";
 import technologies from "../Data/Technologies";
 import { Link } from "react-router-dom";
 function ProjectIdeas() {
   return (
     <div>
-      <div class="techLang">
+      <div class="technology">
         {technologies.map(tech => (
           <div class="flip-card-container">
             <div class="flip-card">
@@ -14,7 +13,7 @@ function ProjectIdeas() {
                 <figure>
                   <div class="img-bg"></div>
                   <img className="langpic techpic" src={tech.image} alt="" />
-                  <figcaption>{tech.name}</figcaption>
+                  <figcaption>{tech.heading}</figcaption>
                 </figure>
                 <ul>
                   <p>{tech.description}</p>
@@ -28,7 +27,7 @@ function ProjectIdeas() {
                 </figure>
 
                 <button>Learn</button>
-                <Link to={tech.proj}>
+                <Link to={tech.projPath}>
                   <button>Projects</button>
                 </Link>
 

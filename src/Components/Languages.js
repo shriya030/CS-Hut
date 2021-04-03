@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Languages() {
   return (
     <div>
-      <div class="techLang">
+      <div class="languages">
         {languages.map(lang => (
           <div class="flip-card-container">
             <div class="flip-card">
@@ -14,7 +14,7 @@ function Languages() {
                 <figure>
                   <div class="img-bg"></div>
                   <img src={lang.image} alt="" />
-                  <figcaption>{lang.name}</figcaption>
+                  <figcaption>{lang.heading}</figcaption>
                 </figure>
                 <ul>
                   <p>{lang.description}</p>
@@ -30,8 +30,9 @@ function Languages() {
                 <Link to={lang.learnPath}>
                   <button>Learn</button>
                 </Link>
-
-                <button>Projects</button>
+                <Link to={lang.projPath}>
+                  <button>Projects</button>
+                </Link>
 
                 <div class="design-container">
                   <span class="design design--1"></span>

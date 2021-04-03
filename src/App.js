@@ -31,18 +31,48 @@ function App() {
             }
           />
         ))} */}
-        <Route path="/learnweb" component={Make} />
         {languages.map((lang, i) => (
           <Route
             exact
             path={lang.learnPath}
             key={i}
-            render={
-              () => <Learn resources={lang.learnContent} />
-              // lang.learnContent.map(item => (
-              //   <Learn name={item.name} link={item.link} image={item.image} />
-              // ))
-            }
+            // whenever we want to use props, we will use render instead of components
+            render={() => (
+              <Learn name={lang.heading} resources={lang.learnContent} />
+            )}
+          />
+        ))}
+
+        {languages.map((tech, i) => (
+          <Route
+            exact
+            path={tech.projPath}
+            key={i}
+            render={() => (
+              <Make name={tech.heading} resources={tech.ApplyContent} />
+            )}
+          />
+        ))}
+
+        {technologies.map((learn, i) => (
+          <Route
+            exact
+            path={learn.learnPath}
+            key={i}
+            render={() => (
+              <Learn name={learn.heading} resources={learn.learnContent} />
+            )}
+          />
+        ))}
+
+        {technologies.map((tech, i) => (
+          <Route
+            exact
+            path={tech.projPath}
+            key={i}
+            render={() => (
+              <Make name={tech.heading} resources={tech.ApplyContent} />
+            )}
           />
         ))}
         <Route exact path="/techLang" component={TechLang} />

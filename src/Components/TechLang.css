@@ -1,92 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
-.divider{
-    display: flex;
-    color: white;
-    justify-content: space-evenly;
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(180deg, var(--Black), var(--Cream)); 
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+.divider {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(180deg, var(--Black), var(--Cream));
 }
 
-.resources{
-    height: 50vh;
-    margin-left: 100px;
-    width: 30%;
-    margin-top: 200px;
-    /* margin-right:100px  !important; */
-    text-align: center;
-    border-radius: 60px;
-    box-shadow:2px 2px 30px #000;
-
-   
+.resources {
+  height: 50vh;
+  margin-left: 100px;
+  width: 30%;
+  margin-top: 200px;
+  /* margin-right:100px  !important; */
+  text-align: center;
+  border-radius: 60px;
+  box-shadow: 2px 2px 30px #000;
+  transition: all 0.8s;
 }
-.projects
-{
-    height: 50vh;
-    margin-top: 200px;
-    margin-left: 30px;
-    text-align: center;
-    margin-right: 120px;
-    box-shadow:2px 2px 30px #000;
-    border-radius: 60px;
-   
+.projects {
+  height: 50vh;
+  margin-top: 200px;
+  margin-left: 30px;
+  text-align: center;
+  margin-right: 120px;
+  box-shadow: 2px 2px 30px #000;
+  border-radius: 60px;
+  transition: all 0.6s;
 }
 
-.rheading{
-    padding: 30px;
-    background-color: #45a29e;
-    font-size: 70px;
-    width:700px;
-    
-    font-family: 'Permanent Marker', cursive;
-    cursor: pointer;
-    
+.rheading {
+  padding: 30px;
+  background-color: #45a29e;
+  font-size: 70px;
+  width: 700px;
+
+  font-family: "Permanent Marker", cursive;
+  cursor: pointer;
 }
 
-.pheading{
-    padding: 30px;
-    background-color:  #45a29e;
-    font-size: 70px;
-    width:700px;
-    font-family: 'Permanent Marker', cursive;
-    cursor: pointer;
+.pheading {
+  padding: 30px;
+  background-color: #45a29e;
+  font-size: 70px;
+  width: 700px;
+  font-family: "Permanent Marker", cursive;
+  cursor: pointer;
 }
 
-.rheading:hover{
-    color: white  !important;
-    transform:scale(1.2);
-    transition: all 1s ;
-    text-shadow: 2px 2px 8px #000;
-    
+.rheading:hover {
+  color: white !important;
+  transform: scale(1.2);
+  transition: all 1s;
+  text-shadow: 2px 2px 8px #000;
 }
 
-.pheading:hover{
-    color: white  !important;
-    transition: 0.4s smooth;
-    transform:scale(1.2);
-    transition: all 1s ;
-    text-shadow: 2px 2px 8px #000;
-    
+.pheading:hover {
+  color: white !important;
+  transition: 0.4s smooth;
+  transform: scale(1.2);
+  transition: all 1s;
+  text-shadow: 2px 2px 8px #000;
 }
 
-.para
-{
-    font-size: 20px;
-    text-align: center;
+.para {
+  font-size: 20px;
+  text-align: center;
 }
 
-
-.ques{
-    font-size: 30px;
-    position: absolute;
-    align-items: center !important;
-    height: 10vh;
-    width: 50%;
-    margin-top: 100px;
-    left: 170px;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'New Tegomin', serif;
+.ques {
+  font-size: 30px;
+  position: absolute;
+  align-items: center !important;
+  height: 10vh;
+  width: 50%;
+  margin-top: 100px;
+  left: 170px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "New Tegomin", serif;
 }

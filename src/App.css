@@ -7,19 +7,18 @@
 }
 /* width */
 ::-webkit-scrollbar {
-    width: 30px;
-    height: 30px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1faee;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, var(--Black), var(--Cream));
-    border-radius: 30px;
-    box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%),
-     inset -2px -2px 2px rgb(0 0 0 / 25%);
-  }
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1faee;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--SkyBlue), var(--Black));
+  border-radius: 30px;
+  box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%),
+    inset -2px -2px 2px rgb(0 0 0 / 25%);
+}

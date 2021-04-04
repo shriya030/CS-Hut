@@ -98,3 +98,21 @@
   background: #333;
   color: #fff;
 }
+
+.headings {
+  font-family: "Permanent Marker", cursive;
+  position: absolute !important;
+  color: white !important;
+  font-size: 40px;
+  text-align: center;
+  left: 500px;
+  right: 600px;
+  top: 100px;
+  transition: 0.6s;
+}
+
+.headings:hover {
+  text-shadow: 2px 3px 10px var(--SkyBlue);
+  transform: scale(1.5);
+  transition: 0.6s;
+}

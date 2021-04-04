@@ -5,6 +5,7 @@ function Make(props) {
   console.log(props);
   return (
     <div class="make">
+      <div className="headings">{props.name}</div>
       <div class="container">
         {props.resources.map(resource => (
           <div class="cards">

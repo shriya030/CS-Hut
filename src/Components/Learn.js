@@ -5,7 +5,7 @@ function Learn(props) {
   return (
     <div>
       <div class="new">
-        {/* <div className='headings'>C++</div> */}
+        <div className="headings">{props.name}</div>
         <div class="box">
           {props.resources.map(resource => (
             <div class="card">

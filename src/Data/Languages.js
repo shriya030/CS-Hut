@@ -1,7 +1,8 @@
 let languages = [
   {
     heading: "C++",
-
+    learnheading: "Learn C++",
+    projectheading: "Apply C++",
     description:
       'C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes"',
     image:
@@ -80,6 +81,8 @@ let languages = [
   },
   {
     heading: "Python",
+    learnheading: "Learn Python",
+    projectheading: "Apply Python",
     description:
       "Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.",
     image:
@@ -157,7 +160,8 @@ let languages = [
   },
   {
     heading: "Java",
-    name: "Java",
+    learnheading: "Learn Java",
+    projectheading: "Apply Java",
     description:
       "Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
     image: "https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem.jpg",
@@ -226,6 +230,8 @@ let languages = [
   },
   {
     heading: "Javascript",
+    learnheading: "Learn Javascript",
+    projectheading: "Apply Javascript",
     description:
       "JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.",
     image:

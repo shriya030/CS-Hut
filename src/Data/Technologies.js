@@ -1,7 +1,8 @@
 let technologies = [
   {
     heading: "Web Development",
-    name: "Web Development",
+    learnheading: "Learn Web Development",
+    projectheading: "Apply Web Development",
     description:
       "Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.",
     image:
@@ -135,7 +136,8 @@ let technologies = [
   },
   {
     heading: "Machine Learning",
-    name: "Machine Learning",
+    learnheading: "Learn ML",
+    projectheading: "Apply ML",
     description:
       "Machine learning is the concept that a computer program can learn and adapt to new data without human intervention. Machine learning is a field of artificial intelligence (AI) that keeps a computer's built-in algorithms current regardless of changes in the worldwide economy.",
     image:
@@ -177,7 +179,8 @@ let technologies = [
   },
   {
     heading: "Data Structures",
-    name: "Data Structures",
+    learnheading: "Learn DS Algo",
+    projectheading: "Apply DS Algo",
     description:
       "In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification",
     image: "https://miro.medium.com/max/5442/1*KpDOKMFAgDWaGTQHL0r70g.png",

@@ -18,7 +18,7 @@
   text-align: center;
   border-radius: 60px;
   box-shadow: 2px 2px 30px #000;
-  transition: all 0.8s;
+  transition: all 0.6s;
 }
 .projects {
   height: 50vh;

@@ -1,8 +1,7 @@
 import React from "react";
 import "./Aboutus.css";
 import weblogo from "./Images/logo.png";
-import Shriya from "./Images/shriya.png";
-import Ashrey from "./Images/ashrey.jpeg";
+
 function Aboutus() {
   return (
     <div className="aboutus">

@@ -1,27 +1,34 @@
-import React from 'react'
-import './Aboutus.css';
-import Logo from './logo.png';
-
+import React from "react";
+import "./Aboutus.css";
+import weblogo from "./Images/logo.png";
+import Shriya from "./Images/shriya.png";
+import Ashrey from "./Images/ashrey.jpeg";
 function Aboutus() {
-    return (
-        <div className='aboutus'>
-            <h1>About us</h1>
-            <div className="about">
-                <img src={Logo} alt='' />
-                <div className="about-content">
-                    <h1>Who we are</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-                    Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
-                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
-                    Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                    
-                </div>
-            </div>
+  return (
+    <div className="aboutus">
+      <h1>About us</h1>
+      <br className="line" />
+      <div className="about">
+        <img src={weblogo} alt="" />
+
+        <div className="about-content">
+          <h1>Who we are</h1>
+          <p>
+            Talent is Universal, but opportunities are not. With access to
+            online learning resources and instruction, anyone, anywhere, can
+            gain skills and trasnsform their lives in meaningful ways. We
+            believe that world's best teachers aren't always found in
+            classrooms. They can come from virtually every country !! That's why
+            we have tried to gather the best resources from instructors and
+            organisations who are passionate about sharing their knowledge and
+            helping students. They are experts who stay active in their fields
+            in order to deliver the most up-to-date content. In short, we have
+            done our best possible to help you in your journey to excel.
+          </p>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default Aboutus
+export default Aboutus;

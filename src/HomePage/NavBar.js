@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { IconContext } from "react-icons";
 import { FaHome, FaInfoCircle } from "react-icons/fa";
 import { MdComputer, MdContactMail } from "react-icons/md";
-import NavLogo from "./NavLogo.png";
+import NavLogo from "./Images/NavLogo.png";
 
 function NavBar() {
   const [NavBar, setNavBar] = useState(false);

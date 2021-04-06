@@ -1,21 +1,49 @@
 .aboutus h1 {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 
 .about img {
-    height: 400px;
-    width: 400px;
-    margin-left: 100px;
-    padding: 10px;
+  height: 400px;
+  width: 400px;
+  margin-left: 40px;
+  padding: 10px;
 }
 
 .about-content p {
-    padding: 20px;
-    color: white;
+  padding: 20px;
+  padding-left: 5px;
+  color: white;
+  text-align: center;
 }
 
 .about {
+  display: flex;
+  align-items: center;
+}
+
+/* .creators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.astf {
+  margin: 0 20px;
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 50px;
+} */
+
+@media screen and (max-width: 991px) {
+  .about {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+  }
+
+  .about img {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
 }

@@ -6,14 +6,14 @@
   justify-content: space-evenly;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(180deg, var(--Black), var(--Cream));
+  background: linear-gradient(180deg, var(--Black), var(--Cream)) fixed;
 }
 
 .resources {
   height: 50vh;
   margin-left: 100px;
   width: 30%;
-  margin-top: 200px;
+  margin-top: 250px;
   /* margin-right:100px  !important; */
   text-align: center;
   border-radius: 60px;
@@ -22,7 +22,7 @@
 }
 .projects {
   height: 50vh;
-  margin-top: 200px;
+  margin-top: 250px;
   margin-left: 30px;
   text-align: center;
   margin-right: 120px;
@@ -73,13 +73,26 @@
 .ques {
   font-size: 30px;
   position: absolute;
-  align-items: center !important;
-  height: 10vh;
-  width: 50%;
-  margin-top: 100px;
-  left: 170px;
+  max-width: 600px;
+  color: white;
+  left: 0;
   right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  margin-top: 90px;
+  text-align: center;
   font-family: "New Tegomin", serif;
+}
+
+@media screen and (max-width: 1009px) {
+  .divider {
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+  }
+
+  .resources {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
 }

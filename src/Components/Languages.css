@@ -2,17 +2,17 @@
 
 .languages {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   min-height: 100vh;
   padding: 40px;
   width: 100%;
-
+  margin-top: 140px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(180deg, var(--Black), var(--Cream));
+  background: linear-gradient(180deg, var(--Black), var(--Cream)) fixed;
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 

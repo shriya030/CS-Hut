@@ -120,12 +120,15 @@
 
 .headings {
   font-family: "Permanent Marker", cursive;
-  position: absolute !important;
+  position: absolute;
   color: white !important;
   font-size: 40px;
+  top: 100px;
   text-align: center;
-  left: 500px;
-  right: 600px;
+  max-width: 600px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
   top: 100px;
   transition: 0.6s;
 }
@@ -134,4 +137,64 @@
   text-shadow: 2px 3px 10px var(--SkyBlue);
   transform: scale(1.5);
   transition: 0.6s;
+}
+
+@media screen and (max-width: 1100px) {
+  .box {
+    margin-left: 80px !important;
+    width: 950px;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .card {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 846px) {
+  .box {
+    margin-left: 80px !important;
+    width: 560px;
+    display: grid;
+  }
+
+  .card {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .box {
+    margin-left: 180px !important;
+    width: 560px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .card {
+    margin-bottom: 40px;
+  }
+
+  /* .h-minor{
+    position: absolute !important;
+    width: 70%;
+    left: 460px !important;
+     height: 200px !important;
+  } */
+}
+
+@media screen and (max-width: 210px) {
+  .box {
+    margin-left: 200px !important;
+    width: 160px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .card {
+    margin-bottom: 40px;
+  }
 }

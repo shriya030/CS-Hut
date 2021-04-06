@@ -7,17 +7,6 @@ html {
   height: 100%;
 }
 
-@media screen and (max-width: 991px) {
-  .banner {
-    width: 60%;
-  }
-  .bg,
-  .b2,
-  .b3 {
-    width: 60%;
-  }
-}
-
 .bg {
   animation: slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-20deg, var(--Blue) 50%, var(--Black) 50%);
@@ -62,10 +51,12 @@ html {
 }
 
 .banner-heading {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  max-width: 600px;
   height: 300px;
-  width: 600px;
+  text-align: center;
 }
 
 .banner-heading button {

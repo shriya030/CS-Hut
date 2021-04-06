@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 function ProjectIdeas() {
   return (
     <div>
-      <div class="technology">
+      <div className="headings">Technologies</div>
+      <div class="technology modifier">
         {technologies.map(tech => (
           <div class="flip-card-container">
             <div class="flip-card">

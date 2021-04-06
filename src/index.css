@@ -5,4 +5,5 @@
 
 body {
   background: linear-gradient(180deg, var(--Black), var(--Cream)) fixed;
+  overflow-x: hidden;
 }

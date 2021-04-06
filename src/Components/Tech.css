@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(180deg, var(--Black), var(--Cream));
+  background: linear-gradient(180deg, var(--Black), var(--Cream)) fixed;
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -360,4 +360,8 @@ button:focus + .design-container {
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 16px;
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.modifier {
+  margin-top: 140px !important;
 }

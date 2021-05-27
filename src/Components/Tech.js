@@ -1,36 +1,40 @@
 import React from "react";
-import "./Tech.css";
+// import "./Tech.css";
 import technologies from "../Data/Technologies";
 import { Link } from "react-router-dom";
 function ProjectIdeas() {
   return (
-    <div>
+    <div className="lang">
       <div className="headings">Technologies</div>
-      <div class="technology modifier">
+      <div class="languages">
         {technologies.map(tech => (
           <div class="flip-card-container">
             <div class="flip-card">
               <div class="card-front">
                 <figure>
                   <div class="img-bg"></div>
-                  <img className="langpic techpic" src={tech.image} alt="" />
+                  <img src={tech.image} alt="" />
                   <figcaption>{tech.heading}</figcaption>
                 </figure>
-                <ul>
-                  <p>{tech.description}</p>
-                </ul>
               </div>
 
               <div class="card-back">
                 <figure>
                   <div class="img-bg"></div>
-                  <img className="langpic" src={tech.image} alt="" />
+                  <img src={tech.image} alt="Brohm Lake" />
                 </figure>
-
-                <button>Learn</button>
-                <Link to={tech.projPath}>
-                  <button>Projects</button>
-                </Link>
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                  <div style={{ marginBottom: "5%", marginLeft: "9vh" }}>
+                    <Link to={tech.learnPath}>
+                      <button>Learn</button>
+                    </Link>
+                  </div>
+                  <div style={{ marginLeft: "3vh" }}>
+                    <Link to="">
+                      <button>Documentation</button>
+                    </Link>
+                  </div>
+                </div>
 
                 <div class="design-container">
                   <span class="design design--1"></span>

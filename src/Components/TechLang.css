@@ -13,8 +13,7 @@
   height: 50vh;
   margin-left: 100px;
   width: 30%;
-  margin-top: 250px;
-  /* margin-right:100px  !important; */
+  margin-top: 10vh;
   text-align: center;
   border-radius: 60px;
   box-shadow: 2px 2px 30px #000;
@@ -22,8 +21,8 @@
 }
 .projects {
   height: 50vh;
-  margin-top: 250px;
-  margin-left: 30px;
+  margin-top: 10vh;
+  margin-left: 100px;
   text-align: center;
   margin-right: 120px;
   box-shadow: 2px 2px 30px #000;
@@ -72,13 +71,12 @@
 
 .ques {
   font-size: 30px;
-  position: absolute;
   max-width: 600px;
   color: white;
   left: 0;
   right: 0;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 15vh;
   text-align: center;
   font-family: "New Tegomin", serif;
 }
@@ -87,7 +85,7 @@
   .divider {
     display: flex;
     flex-direction: column;
-    margin-top: 400px;
+    margin-top: 10vh;
   }
 
   .resources {

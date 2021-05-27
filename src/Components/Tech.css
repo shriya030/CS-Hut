@@ -1,19 +1,40 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 
-.technology {
+.languages {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   min-height: 100vh;
   padding: 40px;
   width: 100%;
-
+  margin-top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
+  padding-top: 0;
   background: linear-gradient(180deg, var(--Black), var(--Cream)) fixed;
+  margin-top: -20vh;
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.lang .headings:hover {
+  text-shadow: 2px 3px 10px var(--SkyBlue);
+  transform: scale(1.5);
+  transition: 0.6s;
+}
+
+.lang .headings {
+  font-family: "Permanent Marker", cursive;
+  color: white !important;
+  top: 40vh;
+  font-size: 40px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin-top: 17vh;
+  transition: 0.6s;
 }
 
 /* default */
@@ -25,6 +46,8 @@
   box-sizing: border-box;
 }
 
+/* body */
+
 /* .flip-card-container */
 .flip-card-container {
   --hue: 150;
@@ -34,11 +57,16 @@
   --dark: hsl(var(--hue), 25%, 10%);
   --grey: hsl(0, 0%, 50%);
 
-  width: 310px;
-  height: 500px;
+  width: 35px;
+  height: 30vh;
   margin: 40px;
 
   perspective: 1000px;
+}
+
+.card-back a {
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 /* .flip-card */
@@ -125,7 +153,7 @@ figcaption {
   letter-spacing: 2px;
   word-spacing: 6px;
   text-align: right;
-  border: 1px solid var(--SkyBlue);
+  border: 2px solid var(--SkyBlue);
 
   position: absolute;
   top: 0;
@@ -154,7 +182,7 @@ figcaption {
 
   width: 100%;
   height: 6px;
-  border: 1px solid var(--SkyBlue);
+  border: 2px solid var(--SkyBlue);
   border-left-color: transparent;
   border-right-color: transparent;
 
@@ -227,11 +255,10 @@ button {
   letter-spacing: 2px;
 
   padding: 9px 20px;
-  border: 1px solid var(--SkyBlue);
+  border: 2px solid var(--SkyBlue);
   border-radius: 1000px;
   background: transparent;
   transition: 0.3s;
-
   cursor: pointer;
 }
 
@@ -362,6 +389,8 @@ button:focus + .design-container {
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.modifier {
-  margin-top: 140px !important;
+@media screen and (max-width: 1220px) {
+  .languages {
+    margin-top: -2vh;
+  }
 }

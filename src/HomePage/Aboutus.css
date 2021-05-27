@@ -1,0 +1,48 @@
+.aboutus h1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.about img {
+  height: 300px;
+  width: 300px;
+  margin-left: 100px;
+  padding: 10px;
+}
+
+.about-content p {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+}
+
+.creators {
+  display: flex;
+}
+.astf {
+  margin: 0 auto;
+  left: auto;
+  right: auto;
+  border-radius: 20px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about img {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+}

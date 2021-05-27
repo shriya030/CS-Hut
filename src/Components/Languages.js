@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Languages() {
   return (
-    <div>
+    <div className="lang">
       <div className="headings">Languages</div>
       <div class="languages">
         {languages.map(lang => (
@@ -17,9 +17,6 @@ function Languages() {
                   <img src={lang.image} alt="" />
                   <figcaption>{lang.heading}</figcaption>
                 </figure>
-                <ul>
-                  <p>{lang.description}</p>
-                </ul>
               </div>
 
               <div class="card-back">
@@ -27,13 +24,18 @@ function Languages() {
                   <div class="img-bg"></div>
                   <img src={lang.image} alt="Brohm Lake" />
                 </figure>
-
-                <Link to={lang.learnPath}>
-                  <button>Learn</button>
-                </Link>
-                <Link to={lang.projPath}>
-                  <button>Projects</button>
-                </Link>
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                  <div style={{ marginBottom: "5%", marginLeft: "9vh" }}>
+                    <Link to={lang.learnPath}>
+                      <button>Learn</button>
+                    </Link>
+                  </div>
+                  <div style={{ marginLeft: "3vh" }}>
+                    <Link to="">
+                      <button>Documentation</button>
+                    </Link>
+                  </div>
+                </div>
 
                 <div class="design-container">
                   <span class="design design--1"></span>

@@ -28,6 +28,14 @@
   padding-right: 5px;
 }
 
+.navbar-dark .navbar-toggler {
+  margin-right: 7vw;
+}
+
+.navbar-expand-lg .navbar-nav {
+  margin-right: 7vw;
+}
+
 @media screen and (max-width: 991px) {
   .navbar {
     background-color: var(--Blue);
@@ -40,7 +48,7 @@
   }
 
   .navbar-dark .navbar-nav .nav-link {
-    margin-left: 20px;
+    margin-left: 2vw;
   }
 
   .borderbottom {

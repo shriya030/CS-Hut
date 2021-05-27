@@ -265,6 +265,10 @@
   width: 150px;
 }
 
+.learn svg {
+  fill: white;
+}
+
 .learn .emptybar {
   background-color: #2e3033;
   width: 14vw;

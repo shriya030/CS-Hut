@@ -9,6 +9,8 @@ import Learn from "./Components/Learn";
 import { Switch, Route } from "react-router-dom";
 import technologies from "./Data/Technologies";
 import NavBar from "./HomePage/NavBar";
+import Frameworks from "./Components/Frameworks";
+import frameworks from "./Data/Frameworks";
 
 console.log(languages);
 
@@ -31,14 +33,14 @@ function App() {
             }
           />
         ))} */}
-        {languages.map((lang, i) => (
+        {frameworks.map((framework, i) => (
           <Route
             exact
-            path={lang.learnPath}
+            path={framework.path}
             key={i}
             // whenever we want to use props, we will use render instead of components
             render={() => (
-              <Learn name={lang.learnheading} resources={lang.learnContent} />
+              <Learn name={framework.title} content={framework.content} />
             )}
           />
         ))}
@@ -76,7 +78,7 @@ function App() {
           />
         ))}
         <Route exact path="/techLang" component={TechLang} />
-        <Route exact path="/Languages" component={Languages} />
+        <Route exact path="/Languages" component={Frameworks} />
         <Route exact path="/Tech" component={Tech} />
         <Route exact path="/" component={Home}></Route>
       </Switch>

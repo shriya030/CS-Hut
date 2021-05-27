@@ -1,7 +1,10 @@
 import React from "react";
 import "./Learn.css";
+import { FaYoutube, FaLightbulb, FaBookOpen, FaGithub } from "react-icons/fa";
+import { MdBookmark } from "react-icons/md";
 
 function Learn(props) {
+  console.log(props.content.courses);
   return (
     <div className="learn">
       <div className="headings">{props.name}</div>
@@ -12,11 +15,19 @@ function Learn(props) {
             <div class="emptybar"></div>
             <div class="filledbar"></div>
           </div>
-          <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle class="stroke" cx="60" cy="60" r="50" />
-            </svg>
-          </div>
+          <ul>
+            {props.content.youtube.map((link, i) => (
+              <li>
+                <a style={{ color: "white" }} href={link}>
+                  <FaYoutube
+                    size={20}
+                    style={{ fill: "white", marginRight: "1vw" }}
+                  />
+                  Watch
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
         <div class="card">
           <h3 class="title">Websites</h3>
@@ -24,11 +35,19 @@ function Learn(props) {
             <div class="emptybar"></div>
             <div class="filledbar"></div>
           </div>
-          <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle class="stroke" cx="60" cy="60" r="50" />
-            </svg>
-          </div>
+          <ul>
+            {props.content.websites.map((link, i) => (
+              <li>
+                <a style={{ color: "white" }} href={link}>
+                  <MdBookmark
+                    size={20}
+                    style={{ fill: "white", marginRight: "1vw" }}
+                  />
+                  Open
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
         <div class="card">
           <h3 class="title">Courses</h3>
@@ -36,11 +55,19 @@ function Learn(props) {
             <div class="emptybar"></div>
             <div class="filledbar"></div>
           </div>
-          <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle class="stroke" cx="60" cy="60" r="50" />
-            </svg>
-          </div>
+          <ul>
+            {props.content.courses.map((link, i) => (
+              <li>
+                <a style={{ color: "white" }} href={link}>
+                  <FaBookOpen
+                    size={20}
+                    style={{ fill: "white", marginRight: "1vw" }}
+                  />
+                  Learn
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
         <div class="card">
           <h3 class="title">Tips/Tricks</h3>
@@ -48,11 +75,19 @@ function Learn(props) {
             <div class="emptybar"></div>
             <div class="filledbar"></div>
           </div>
-          <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle class="stroke" cx="60" cy="60" r="50" />
-            </svg>
-          </div>
+          <ul>
+            {props.content.tips.map((link, i) => (
+              <li>
+                <a style={{ color: "white" }} href={link}>
+                  <FaLightbulb
+                    size={20}
+                    style={{ fill: "white", marginRight: "1vw" }}
+                  />
+                  Tips
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
         <div class="card">
           <h3 class="title">Github</h3>
@@ -60,11 +95,19 @@ function Learn(props) {
             <div class="emptybar"></div>
             <div class="filledbar"></div>
           </div>
-          <div class="circle">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle class="stroke" cx="60" cy="60" r="50" />
-            </svg>
-          </div>
+          <ul>
+            {props.content.github.map((link, i) => (
+              <li>
+                <a style={{ color: "white" }} href={link}>
+                  <FaGithub
+                    size={20}
+                    style={{ fill: "white", marginRight: "1vw" }}
+                  />
+                  Clone
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

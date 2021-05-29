@@ -4,13 +4,15 @@ import languages from "./Data/Languages.js";
 import TechLang from "./Components/TechLang";
 import Languages from "./Components/Languages";
 import Tech from "./Components/Tech";
-import Make from "./Components/Make";
 import Learn from "./Components/Learn";
 import { Switch, Route } from "react-router-dom";
 import technologies from "./Data/Technologies";
 import NavBar from "./HomePage/NavBar";
 import Frameworks from "./Components/Frameworks";
 import frameworks from "./Data/Frameworks";
+import Tags from "./Components/Tags";
+import Development from "./Components/Development";
+import Softwares from "./Components/Sotwares";
 
 console.log(languages);
 
@@ -45,17 +47,6 @@ function App() {
           />
         ))}
 
-        {languages.map((tech, i) => (
-          <Route
-            exact
-            path={tech.projPath}
-            key={i}
-            render={() => (
-              <Make name={tech.projectheading} resources={tech.ApplyContent} />
-            )}
-          />
-        ))}
-
         {technologies.map((learn, i) => (
           <Route
             exact
@@ -67,19 +58,11 @@ function App() {
           />
         ))}
 
-        {technologies.map((tech, i) => (
-          <Route
-            exact
-            path={tech.projPath}
-            key={i}
-            render={() => (
-              <Make name={tech.projectheading} resources={tech.ApplyContent} />
-            )}
-          />
-        ))}
-        <Route exact path="/techLang" component={TechLang} />
-        <Route exact path="/Languages" component={Frameworks} />
-        <Route exact path="/Tech" component={Tech} />
+        <Route exact path="/languages" component={Languages} />
+        <Route exact path="/frameworks" component={Frameworks} />
+        <Route exact path="/tags" component={Tags} />
+        <Route exact path="/softwares" component={Softwares} />
+        <Route exact path="/development" component={Development} />
         <Route exact path="/" component={Home}></Route>
       </Switch>
     </div>

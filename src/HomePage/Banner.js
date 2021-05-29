@@ -50,7 +50,7 @@ function Banner() {
           ></Typed>{" "}
         </p>
 
-        <Link to="/techLang">
+        <Link to="/tags">
           <button variant="contained">Let's Begin</button>
         </Link>
       </div>

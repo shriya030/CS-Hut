@@ -1,9 +1,9 @@
 import React from "react";
-import frameworks from "../Data/Frameworks";
-import "./Languages.css";
+import frameworks from "../../Data/Frameworks";
+import "./styles.css";
 import { Link } from "react-router-dom";
 
-function Languages() {
+function Softwares() {
   return (
     <div className="lang">
       <div className="headings">Frameworks</div>
@@ -56,4 +56,4 @@ function Languages() {
   );
 }
 
-export default Languages;
+export default Softwares;

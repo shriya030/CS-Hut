@@ -1,19 +1,16 @@
 import "./App.css";
 import Home from "./HomePage/Home.js";
 import languages from "./Data/Languages.js";
-//import TechLang from "./Components/TechLang";
-import Languages from "./Components/Languages";
-//import Tech from "./Components/Tech";
 import Learn from "./Components/Learn";
 import { Switch, Route } from "react-router-dom";
-import technologies from "./Data/Technologies";
 import NavBar from "./HomePage/NavBar";
-import Frameworks from "./Components/Frameworks";
+import Frameworks from "./Components/Tags/Frameworks";
 import frameworks from "./Data/Frameworks";
 import Tags from "./Components/Tags";
-import Development from "./Components/Development";
-import Softwares from "./Components/Sotwares";
-import ScrollToTop from './Components/ScrollToTop';
+import Databases from "./Components/Tags/Databases";
+import Softwares from "./Components/Tags/Softwares";
+import ScrollToTop from "./Components/ScrollToTop";
+import Languages from "./Components/Tags/Languages";
 
 console.log(languages);
 
@@ -24,18 +21,6 @@ function App() {
       {/* <Alert variant='secondary'>This is a alert</Alert>
       <Button>classic</Button> */}
       <Switch>
-        {/* {technologies.map((tech, i) => (
-          <Route
-            exact
-            path={tech.proj}
-            key={i}
-            render={() =>
-              lang.learnContent.map(item => (
-                <Learn name={item.name} link={item.link} image={item.image} />
-              ))
-            }
-          />
-        ))} */}
         {frameworks.map((framework, i) => (
           <Route
             exact
@@ -48,13 +33,14 @@ function App() {
           />
         ))}
 
-        {technologies.map((learn, i) => (
+        {languages.map((language, i) => (
           <Route
             exact
-            path={learn.learnPath}
+            path={language.path}
             key={i}
+            // whenever we want to use props, we will use render instead of components
             render={() => (
-              <Learn name={learn.learnheading} resources={learn.learnContent} />
+              <Learn name={language.title} content={language.content} />
             )}
           />
         ))}
@@ -63,7 +49,7 @@ function App() {
         <Route exact path="/frameworks" component={Frameworks} />
         <Route exact path="/tags" component={Tags} />
         <Route exact path="/softwares" component={Softwares} />
-        <Route exact path="/development" component={Development} />
+        <Route exact path="/databases" component={Databases} />
         <Route exact path="/" component={Home}></Route>
       </Switch>
       <ScrollToTop />

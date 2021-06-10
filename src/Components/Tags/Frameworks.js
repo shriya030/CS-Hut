@@ -1,6 +1,6 @@
 import React from "react";
-import frameworks from "../Data/Frameworks";
-import "./Languages.css";
+import frameworks from "../../Data/Frameworks";
+import "./styles.css";
 import { Link } from "react-router-dom";
 
 function Frameworks() {

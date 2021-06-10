@@ -1,37 +1,37 @@
 import React from "react";
-import frameworks from "../Data/Frameworks";
-import "./Languages.css";
+import languages from "../../Data/Languages";
+import "./styles.css";
 import { Link } from "react-router-dom";
 
-function Sotwares() {
+function Languages() {
   return (
     <div className="lang">
-      <div className="headings">Frameworks</div>
+      <div className="headings">Languages</div>
       <div class="languages">
-        {frameworks.map(framework => (
+        {languages.map(language => (
           <div class="flip-card-container">
             <div class="flip-card">
               <div class="card-front">
                 <figure>
                   <div class="img-bg"></div>
-                  <img src={framework.image} alt="" />
-                  <figcaption>{framework.title}</figcaption>
+                  <img src={language.image} alt="" />
+                  <figcaption>{language.title}</figcaption>
                 </figure>
               </div>
 
               <div class="card-back">
                 <figure>
                   <div class="img-bg"></div>
-                  <img src={framework.image} alt="Brohm Lake" />
+                  <img src={language.image} alt="Brohm Lake" />
                 </figure>
                 <div style={{ display: "flex", flexDirection: "column" }}>
                   <div style={{ marginBottom: "5%", marginLeft: "9vh" }}>
-                    <Link to={framework.path}>
+                    <Link to={language.path}>
                       <button>Learn</button>
                     </Link>
                   </div>
                   <div style={{ marginLeft: "3vh" }}>
-                    <a href={framework.documentation}>
+                    <a href={language.documentation}>
                       <button>Documentation</button>
                     </a>
                   </div>
@@ -56,4 +56,4 @@ function Sotwares() {
   );
 }
 
-export default Sotwares;
+export default Languages;

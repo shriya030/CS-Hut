@@ -1,9 +1,9 @@
 import "./App.css";
 import Home from "./HomePage/Home.js";
 import languages from "./Data/Languages.js";
-import TechLang from "./Components/TechLang";
+//import TechLang from "./Components/TechLang";
 import Languages from "./Components/Languages";
-import Tech from "./Components/Tech";
+//import Tech from "./Components/Tech";
 import Learn from "./Components/Learn";
 import { Switch, Route } from "react-router-dom";
 import technologies from "./Data/Technologies";
@@ -13,6 +13,7 @@ import frameworks from "./Data/Frameworks";
 import Tags from "./Components/Tags";
 import Development from "./Components/Development";
 import Softwares from "./Components/Sotwares";
+import ScrollToTop from './Components/ScrollToTop';
 
 console.log(languages);
 
@@ -65,6 +66,7 @@ function App() {
         <Route exact path="/development" component={Development} />
         <Route exact path="/" component={Home}></Route>
       </Switch>
+      <ScrollToTop />
     </div>
   );
 }

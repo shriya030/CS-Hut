@@ -18,7 +18,7 @@ function Learn(props) {
           <ul>
             {props.content.youtube.map((link, i) => (
               <li>
-                <a style={{ color: "white" }} href={link}>
+                <a style={{ color: "white" }} href={link} target="_blank">
                   <FaYoutube
                     size={20}
                     style={{ fill: "white", marginRight: "1vw" }}
@@ -38,7 +38,7 @@ function Learn(props) {
           <ul>
             {props.content.websites.map((link, i) => (
               <li>
-                <a style={{ color: "white" }} href={link}>
+                <a style={{ color: "white" }} href={link} target="_blank">
                   <MdBookmark
                     size={20}
                     style={{ fill: "white", marginRight: "1vw" }}
@@ -58,7 +58,7 @@ function Learn(props) {
           <ul>
             {props.content.courses.map((link, i) => (
               <li>
-                <a style={{ color: "white" }} href={link}>
+                <a style={{ color: "white" }} href={link} target="_blank">
                   <FaBookOpen
                     size={20}
                     style={{ fill: "white", marginRight: "1vw" }}
@@ -78,7 +78,7 @@ function Learn(props) {
           <ul>
             {props.content.tips.map((link, i) => (
               <li>
-                <a style={{ color: "white" }} href={link}>
+                <a style={{ color: "white" }} href={link} target="_blank">
                   <FaLightbulb
                     size={20}
                     style={{ fill: "white", marginRight: "1vw" }}
@@ -98,7 +98,7 @@ function Learn(props) {
           <ul>
             {props.content.github.map((link, i) => (
               <li>
-                <a style={{ color: "white" }} href={link}>
+                <a style={{ color: "white" }} href={link} target="_blank">
                   <FaGithub
                     size={20}
                     style={{ fill: "white", marginRight: "1vw" }}

@@ -31,7 +31,7 @@ function Languages() {
                     </Link>
                   </div>
                   <div style={{ marginLeft: "3vh" }}>
-                    <a href={framework.documentation}>
+                    <a href={framework.documentation} target="_blank">
                       <button>Documentation</button>
                     </a>
                   </div>

@@ -5,6 +5,7 @@ import languages from "./Data/Languages.js";
 import Languages from "./Components/Languages";
 //import Tech from "./Components/Tech";
 import Learn from "./Components/Learn";
+import ContactUs from './Components/ContactUs';
 import { Switch, Route } from "react-router-dom";
 import technologies from "./Data/Technologies";
 import NavBar from "./HomePage/NavBar";
@@ -59,12 +60,14 @@ function App() {
           />
         ))}
 
+        <Route exact path="/contactus" component={ContactUs} />
         <Route exact path="/languages" component={Languages} />
         <Route exact path="/frameworks" component={Frameworks} />
         <Route exact path="/tags" component={Tags} />
         <Route exact path="/softwares" component={Softwares} />
         <Route exact path="/development" component={Development} />
         <Route exact path="/" component={Home}></Route>
+        
       </Switch>
       <ScrollToTop />
     </div>

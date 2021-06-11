@@ -47,7 +47,7 @@ function NavBar() {
               <Nav.Link href="#link">Resources</Nav.Link>
               <div className="borderbottom"></div>
               <FaInfoCircle />
-              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#ab">About</Nav.Link>
               <div className="borderbottom"></div>
               <MdContactMail />
               <Nav.Link href="#contact">Contact</Nav.Link>

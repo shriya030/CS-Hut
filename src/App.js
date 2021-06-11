@@ -31,7 +31,7 @@ function App() {
       {loading ? (
         // DISPLAY PRELOADER
         <div className="MyLoader">
-          <HashLoader size={70} margin={1} color={"#F37A24"} />
+          <HashLoader size={70} margin={1} color={"#00BFFF"} />
         </div>
       ) : (
         // DISPLAY ORIGINAL CONTENT AFTER PRELOADER

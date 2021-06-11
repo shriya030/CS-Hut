@@ -8,15 +8,15 @@ function Banner() {
   return (
     <div className="banner">
       {/* <div className='banner-img'>
-            <div class="waveWrapper waveAnimation">
-  <div class="waveWrapperInner bgTop">
-    <div class="wave waveTop"></div>
+            <div className="waveWrapper waveAnimation">
+  <div className="waveWrapperInner bgTop">
+    <div className="wave waveTop"></div>
   </div>
-  <div class="waveWrapperInner bgMiddle">
-    <div class="wave waveMiddle"></div>
+  <div className="waveWrapperInner bgMiddle">
+    <div className="wave waveMiddle"></div>
   </div>
-  <div class="waveWrapperInner bgBottom">
-    <div class="wave waveBottom"></div>
+  <div className="waveWrapperInner bgBottom">
+    <div className="wave waveBottom"></div>
   </div>
 </div>
             </div> */}
@@ -55,9 +55,9 @@ function Banner() {
         </Link>
       </div>
 
-      <div class="bg"></div>
-      <div class="bg bg2"></div>
-      <div class="bg bg3"></div>
+      <div className="bg"></div>
+      <div className="bg bg2"></div>
+      <div className="bg bg3"></div>
     </div>
   );
 }

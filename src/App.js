@@ -12,7 +12,7 @@ import Softwares from "./Components/Tags/Softwares";
 import ScrollToTop from "./Components/ScrollToTop";
 import Languages from "./Components/Tags/Languages";
 import { useState, useEffect } from "react";
-import HashLoader from "react-spinners/HashLoader";
+import PropagateLoader from "react-spinners/PropagateLoader";
 
 console.log(languages);
 
@@ -31,7 +31,7 @@ function App() {
       {loading ? (
         // DISPLAY PRELOADER
         <div className="MyLoader">
-          <HashLoader size={70} margin={1} color={"#00BFFF"} />
+          <PropagateLoader size={30} margin={1} color={"#66f0f1"} />
         </div>
       ) : (
         // DISPLAY ORIGINAL CONTENT AFTER PRELOADER

@@ -1,12 +1,12 @@
 import React from "react";
-import frameworks from "../Data/Frameworks";
-import "./Languages.css";
+import frameworks from "../../Data/Frameworks";
+import "./styles.css";
 import { Link } from "react-router-dom";
 
-function Development() {
+function Databases() {
   return (
     <div className="lang">
-      <div className="headings">Frameworks</div>
+      <div className="headings">Databases</div>
       <div class="languages">
         {frameworks.map(framework => (
           <div class="flip-card-container">
@@ -56,4 +56,4 @@ function Development() {
   );
 }
 
-export default Development;
+export default Databases;

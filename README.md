@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+## CS-Hut 💻
+<h4>"Your Guide to learn and apply in-demand technologies, all under one HUT !!"</h4>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CS-Hut is the one-stop place to find resources to learn and apply various computer Science technologies.
 
-## Available Scripts
+![](https://github.com/shriya030/CS-Hut/raw/master/src/HomePage/Images/logo.png)
 
-In the project directory, you can run:
+[![Issues](https://img.shields.io/github/issues/shriya030/CS-Hut)](https://github.com/shriya030/CS-Hut/issues) [![PRs](https://img.shields.io/github/issues-pr/shriya030/CS-Hut)](https://github.com/shriya030/CS-Hut/pulls) [![Maintenance](https://img.shields.io/maintenance/yes/2021?color=green&logo=github)](https://github.com/shriya030/CS-Hut) [![Forks](https://img.shields.io/github/forks/shriya030/CS-Hut?style=social)](https://github.com/shriya030/CS-Hut) [![Stars](https://img.shields.io/github/stars/shriya030/CS-Hut?style=social)](https://github.com/shriya030/CS-Hut) [![Watchers](https://img.shields.io/github/watchers/shriya030/CS-Hut?style=social)](https://github.com/shriya030/CS-Hut)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2>Table of contents</h2>
 
-### `npm test`
+1. [Install](#install)
+2. [How to contribute?](https://github.com/shriya030/CS-Hut/blob/master/contributing.md)
+3. [Contributing Resources](#contributing-resources)
+4. [Technology Stack](#technology-stack)
+5. [Contributing Guidelines](https://github.com/shriya030/CS-Hut/blob/master/CODE_OF_CONDUCT.md)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2 align="center" id="install">Install</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+Step 1: Fork the project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Step 2: Clone it to your local system.
 
-### `npm run eject`
+Step 3: Check if Node is installed in your Operating system.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+a) To check if Node is installed, open the command prompt or similar command line tool and type 'node -v'. This should print a version number which means Node is successfully installed.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+b) If you see an error, it means that Node is not installed in your OS. You can download Node.js from 'https://nodejs.org/en/download/'. After completing the installation repeat the part (a) of step 3.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Step 4: On command prompt under your cloned folder directory path, run 'npm install' to install all the dependencies.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Step 5: Finally run 'npm start' to start the application.
 
-## Learn More
+Step 6: Visit localhost:3000 in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+You can also check out [here](start_app.md)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<h2 align="center" id="contributing-resources">Contributing Resources</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Categories - (Youtube, Websites, Courses, Tips and Github)
 
-### Analyzing the Bundle Size
+Tags - 
+- [Frameworks](src/Data/Frameworks.js)
+- [Programming Languages](src/Data/Languages.js)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Keep these points in mind while contributing the resources 👇🏻
 
-### Making a Progressive Web App
+1. Add topics in the same format as they are added in the above files i.e as Javascript objects.
+2. Maximum 6 links can be added under each category.
+3. Quantity of resources doesn't matter but quality does so even if 3-4 good resources of each are available, put them under each category. 
+4. If any topic doesn't fall under given tags, you can create a new tag and start entering the data in it.
+5. The new tag should be put in the Data folder and Readme.md should be updated for the same.
+6. Kindly add the topic and tags (if you are creating a new one) in alphabetical order. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+(Separate issues can be created to integrate a new topic from the Data folder into the app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<h2 align="center" id="technology-stack">Technology Stack</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Library** - ReactJS
+- **Framework** - React-Bootstrap
+<p align="center">
+<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/><img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React Bootstrap" src="https://img.shields.io/badge/react bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
+​                    
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Happy Contribution ✨

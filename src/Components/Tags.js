@@ -27,22 +27,12 @@ function Tags() {
             </div>
           </div>
         </Link>
-        <Link to="/softwares">
-          <div class="cards__item">
-            <div class="card">
-              <div class="card__content">
-                <div class="card__title">Software/Tools</div>
-                <p class="card__text">C, C++, Java, Python,....</p>
-              </div>
-            </div>
-          </div>
-        </Link>
         <Link to="/development">
           <div class="cards__item">
             <div class="card">
               <div class="card__content">
-                <div class="card__title">Development</div>
-                <p class="card__text">C, C++, Java, Python,....</p>
+                <div class="card__title">Databases</div>
+                <p class="card__text">SQL, MongoDB, ....</p>
               </div>
             </div>
           </div>

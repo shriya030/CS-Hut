@@ -59,7 +59,7 @@ Keep these points in mind while contributing the resources 👇🏻
 5. The new tag should be put in the Data folder and Readme.md should be updated for the same.
 6. Kindly add the topic and tags (if you are creating a new one) in alphabetical order. 
 
-(Separate pull request can be created to integrate a new topic from the Data folder into the app)
+(Separate issues can be created to integrate a new topic from the Data folder into the app)
 
 
 

@@ -16,11 +16,10 @@
     border-radius: 30px;
     border: silver;
     outline: none;
-    box-shadow: -14px -14px 14px rgb(243, 233, 233),
-                15px 15px 15px hsl(0, 1%, 28%);
+    box-shadow: 15px 15px 15px hsl(0, 1%, 28%);
 }
 .child_div{
-    background-color: rgb(145, 145, 145);
+    background-color: skyblue;
     width: 500px;
     height: 60px;
     border-radius: 10px;
@@ -30,15 +29,14 @@
     margin-top: -30px;
     margin-left: 50%;
     transform: translate(-50%);
-    box-shadow: -14px -14px 14px rgb(190, 187, 187),
-                 14px 14px 14px rgb(102, 101, 101);
+    box-shadow: 14px 14px 14px rgb(102, 101, 101);
     cursor: pointer;             
 }
 .h1tag{
     font-size: 40px;
     text-transform: capitalize;
     font-weight: bolder;
-    color: white;
+    color: black;
     text-align: center;
 }
 .form{
@@ -60,6 +58,7 @@
     float: right;
     width: 140px;
     padding: 10px;
+    background-color: skyblue;
 }
 .btn span{
     font-size: 20px;

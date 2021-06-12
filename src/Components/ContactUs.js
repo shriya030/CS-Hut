@@ -25,7 +25,7 @@ export default function ContactUs() {
                         <label className="labels">message </label>
                         <textarea className="form-control boder shadow" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div><br></br>
-                    <button type="button" className="btn btn-secondary "><span>Submit</span></button>
+                    <button type="button" className="btn" style={{background:"skyblue"}}><span>Submit</span></button>
                 </form>
             </div>
         </div>

@@ -75,7 +75,6 @@ let frameworks = [
         "https://www.linkedin.com/learning/topics/django?src=aff-lilpar&veh=aff_src.aff-lilpar_c.partners_pkw.10078_plc.Skimbit%20Ltd._pcrid.449670_learning&trk=aff_src.aff-lilpar_c.partners_pkw.10078_plc.Skimbit%20Ltd._pcrid.449670_learning&clickid=TGDTdaQOsxyLUeIwUx0Mo3QsUkBwJw0sDz%3AOxQ0&irgwc=1",
         "https://www.skillshare.com/site/join?via=search-layout-grid&clickid=THb2z9QOsxyLRILwUx0Mo3QMUkBwJwyQDz%3AOxQ0&irgwc=1&utm_content=4650&utm_term=Skimbit+Ltd.&utm_campaign=10078&affiliateRef=6595003&utm_medium=affiliate-referral&utm_source=IR&t=Try-Django-Learn-and-Master-the-Python-Programming-Web-Framework&sku=1251826101",
         "https://www.pluralsight.com/courses/django-angularjs-web-development?clickid=TGDTdaQOsxyLUeIwUx0Mo3QsUkBwJwRcDz%3AOxQ0&irgwc=1&mpid=10078&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=10078&utm_source=impactradius",
-        "https://www.tangowithdjango.com/",
         "https://www.feldroy.com/pages/django-tutorials"
       ],
 
@@ -114,7 +113,6 @@ let frameworks = [
         "https://clockwise.software/node-js-development-company/ ",
         "https://www.coursera.org/learn/server-side-nodejs?ranMID=40328&ranEAID=vedj0cWlu2Y&ranSiteID=vedj0cWlu2Y-p6s.CfBELfyLJl0sFWKWKA&siteID=vedj0cWlu2Y-p6s.Cf",
         "https://blog.isquaredsoftware.com",
-        "https://www.pluralsight.com/courses/nodejs-getting-started?aid=7010a000002BWq6AAG&promo=&utm_source=non_branded&utm_medium=digital_paid_search_google&utm_campaign=IN_Dynamic&utm_content=&cq_cmp=846648680&gclid=Cj0KCQjwk4yGBhDQARIsACGfAetjSzh_UQ8q4O_C8uwYJitWWuRIIyXed26NIaLk03ukDGRQGqYfaowaAhrqEALw_wcB",
         "https://www.udemy.com/topic/nodejs/"
       ],
       courses: [

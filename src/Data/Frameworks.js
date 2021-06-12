@@ -64,7 +64,7 @@ let frameworks = [
       ],
       websites: [
         " https://unacademy.com/course/introduction-to-django/21Z562EF",
-        "https://en.wikipedia.org/wiki/Django_(web_framework)",
+        "https://www.geeksforgeeks.org/django-tutorial/",
         "https://onlinecoursetutorials.com/courses/best-django-courses-online-with-certifications/#seven",
         "https://www.tangowithdjango.com/",
         "https://www.feldroy.com/pages/django-tutorials",
@@ -111,10 +111,9 @@ let frameworks = [
         "https://www.youtube.com/watch?v=ipnWAKoiBtY "
       ],
       websites: [
-        "https://nodejs.org/en/ ",
         "https://clockwise.software/node-js-development-company/ ",
         "https://www.coursera.org/learn/server-side-nodejs?ranMID=40328&ranEAID=vedj0cWlu2Y&ranSiteID=vedj0cWlu2Y-p6s.CfBELfyLJl0sFWKWKA&siteID=vedj0cWlu2Y-p6s.Cf",
-        "https://www.crio.do/",
+        "https://blog.isquaredsoftware.com",
         "https://www.pluralsight.com/courses/nodejs-getting-started?aid=7010a000002BWq6AAG&promo=&utm_source=non_branded&utm_medium=digital_paid_search_google&utm_campaign=IN_Dynamic&utm_content=&cq_cmp=846648680&gclid=Cj0KCQjwk4yGBhDQARIsACGfAetjSzh_UQ8q4O_C8uwYJitWWuRIIyXed26NIaLk03ukDGRQGqYfaowaAhrqEALw_wcB",
         "https://www.udemy.com/topic/nodejs/"
       ],
@@ -164,7 +163,7 @@ let frameworks = [
         "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4509584&q=site:https%3A%2F%2Freactjs.org%2Ffeed.xml ",
         "https://daveceddia.com/archives/ ",
         "https://blog.isquaredsoftware.com/ ",
-        "https://en.wikipedia.org/wiki/React_(JavaScript_library) "
+        "https://learnwithparam.com/react/"
       ],
       courses: [
         "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",

@@ -56,12 +56,12 @@ let languages = [
 	    	"https://www.youtube.com/watch?v=woVJ4N5nl_s"
       ],
       websites: [
-        "https://www.javatpoint.com/python-tutorial ",
+        "https://www.geeksforgeeks.org/python-programming-language/",
         "https://www.tutorialspoint.com/python/index.htm",
-    		"https://www.w3schools.com/python/",
+    		"https://www.upgrad.com/blog/python-projects-ideas-topics-beginners/",
 	    	"https://www.programiz.com/python-programming",
-	    	"https://www.geeksforgeeks.org/python-programming-language/",
-	    	"https://www.tutorialsteacher.com/python"
+	    	"https://data-flair.training/blogs/python-project-ideas/",
+	    	"https://intellipaat.com/blog/python-project-ideas-for-beginners/"
       ],
       courses: [
         "https://www.udemy.com/share/101W8Q/",

@@ -39,6 +39,56 @@ let languages = [
         "https://github.com/facebook/folly"
       ]
     }
+  },
+
+  {
+    title: "Python",
+    path: "/languages/python",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png",
+    documentation: "https://docs.python.org/3/",
+    content: {
+      youtube: [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc ",
+        "https://www.youtube.com/watch?v=rfscVS0vtbw",
+        "https://www.youtube.com/watch?v=WGJJIrtnfpk",
+        "https://www.youtube.com/watch?v=4F2m91eKmts",
+		    "https://www.youtube.com/watch?v=t8pPdKYpowI",
+	    	"https://www.youtube.com/watch?v=woVJ4N5nl_s"
+      ],
+      websites: [
+        "https://www.javatpoint.com/python-tutorial ",
+        "https://www.tutorialspoint.com/python/index.htm",
+    		"https://www.w3schools.com/python/",
+	    	"https://www.programiz.com/python-programming",
+	    	"https://www.geeksforgeeks.org/python-programming-language/",
+	    	"https://www.tutorialsteacher.com/python"
+      ],
+      courses: [
+        "https://www.udemy.com/share/101W8Q/",
+	    	"https://developers.google.com/edu/python/",
+	    	"https://www.codecademy.com/catalog/language/python",
+		    "https://www.coursera.org/specializations/python",
+	    	"https://www.pepcoding.com/resources/python-and-machine-learning",
+	    	"https://www.geeksforgeeks.org/free-python-course-for-beginners/"
+      ],
+
+      tips: [
+        "https://medium.com/star-gazers/10-python-tips-and-tricks-that-make-your-code-better-f8f78d335bae",
+	    	"https://medium.com/pythonland/30-python-language-tricks-that-will-make-you-a-better-coder-f08f811a7b0f",
+	    	"https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865",
+	    	"https://realpython.com/python-beginner-tips/",
+	    	"https://www.geeksforgeeks.org/optimization-tips-python-code/",
+	    	"https://www.programming-hero.com/blog/20-python-tips-and-tricks-for-new-python-developers.html"
+      ],
+      github: [
+        "https://github.com/codingforentrepreneurs/30-Days-of-Python",
+	    	"https://github.com/CodementorIO/Python-Learning-Resources",
+	    	"https://github.com/qiwsir/StarterLearningPython",
+	    	"https://github.com/jerry-git/learn-python3",
+	    	"https://github.com/trekhleb/learn-python",
+	    	"https://github.com/coodict/python3-in-one-pic"
+      ]
+    }
   }
 ];
 

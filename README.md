@@ -1,13 +1,34 @@
-## CS-Hut 💻
+>## CS-Hut 💻
+
 <h4>"Your Guide to learn and apply in-demand technologies, all under one HUT !!"</h4>
 
 CS-Hut is the one-stop place to find resources to learn and apply various computer Science technologies.
 
 ![](https://github.com/shriya030/CS-Hut/raw/master/src/HomePage/Images/logo.png)
+## About 📚
+**CS-HUT** _is designed for those who really want to learn languages, frameworks.**Talent is Universal, but opportunities are not**
+. With access to online learning resources and instruction, anyone, anywhere, can gain skills and trasnsform their lives in meaningful ways. We believe that world's best teachers aren't always found in classrooms. They can come from virtually every country !! That's why we have tried to gather the best resources from instructors and organisations who are passionate about sharing their knowledge and helping students. They are experts who stay active in their fields in order to deliver the most up-to-date content. In short, we have done our best possible to help you in your journey to excel.
+
+
+<br>
+<br>
+
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?v=103)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Maintenance](https://img.shields.io/badge/PR's%3F-Welcomed-brightgreen.svg?v=103)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
+<br>
 
 [![Issues](https://img.shields.io/github/issues/shriya030/CS-Hut)](https://github.com/shriya030/CS-Hut/issues) [![PRs](https://img.shields.io/github/issues-pr/shriya030/CS-Hut)](https://github.com/shriya030/CS-Hut/pulls) [![Maintenance](https://img.shields.io/maintenance/yes/2021?color=green&logo=github)](https://github.com/shriya030/CS-Hut) [![Forks](https://img.shields.io/github/forks/shriya030/CS-Hut?style=social)](https://github.com/shriya030/CS-Hut) [![Stars](https://img.shields.io/github/stars/shriya030/CS-Hut?style=social)](https://github.com/shriya030/CS-Hut) [![Watchers](https://img.shields.io/github/watchers/shriya030/CS-Hut?style=social)](https://github.com/shriya030/CS-Hut)
 
+<br>
 
+<h2 align="center" id="technology-stack">Technology Stack 🚀</h2> 
+<br>
+
+- **Library** - ReactJS
+- **Framework** - React-Bootstrap
+<p align="center">
+<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/><img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React Bootstrap" src="https://img.shields.io/badge/react bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
+​    <hr>
 
 <h2>Table of contents</h2>
 
@@ -18,9 +39,11 @@ CS-Hut is the one-stop place to find resources to learn and apply various comput
 5. [Contributing Guidelines](https://github.com/shriya030/CS-Hut/blob/master/CODE_OF_CONDUCT.md)
 
 
+<hr>
+<br>
+## Local Setup Instructions 💻
 
-<h2 align="center" id="install">Install</h2>
-
+### Follow these steps to setup project locally:
 ```
 Step 1: Fork the project.
 
@@ -48,9 +71,14 @@ Categories - (Youtube, Websites, Courses, Tips and Github)
 
 Tags - 
 - [Frameworks](src/Data/Frameworks.js)
-- [Programming Languages](src/Data/Languages.js)
+- [Languages](src/Data/Languages.js)
 
-Keep these points in mind while contributing the resources 👇🏻
+
+<hr>
+
+## General Guidelines for Contributors 🚧
+### Some Guidelines need to be followed to maintain the decorum in the community.
+### Keep these points in mind while contributing the resources 👇🏻
 
 1. Add topics in the same format as they are added in the above files i.e as Javascript objects.
 2. Maximum 6 links can be added under each category.
@@ -62,8 +90,10 @@ Keep these points in mind while contributing the resources 👇🏻
 (Separate issues can be created to integrate a new topic from the Data folder into the app)
 
 
+>## Open Source Program ❣️
+ This Project is a part of the following program
 
-<h2 align="center" id="technology-stack">Technology Stack</h2>
+![image](https://letsgrowmore.in/wp-content/uploads/2021/05/cropped-growmore-removebg-preview.png)
 
 - **Library** - ReactJS
 - **Framework** - React-Bootstrap
@@ -82,4 +112,5 @@ Keep these points in mind while contributing the resources 👇🏻
   </table>
   <hr>
 
-## Happy Contribution ✨
+
+>## Happy Contribution ✨

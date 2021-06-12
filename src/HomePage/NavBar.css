@@ -5,13 +5,13 @@
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
-  padding-right: 20px !important;
+  padding-right: 45px !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
   padding-right: 20px;
   color: var(--SkyBlue);
-  transform: scale(1.2);
+  transform: scale(1.1);
   /* padding-left: 20px;
   padding-right: 20px; */
   transition: 0.6s;
@@ -32,10 +32,6 @@
   margin-right: 7vw;
 }
 
-.navbar-expand-lg .navbar-nav {
-  margin-right: 7vw;
-}
-
 @media screen and (max-width: 991px) {
   .navbar {
     background-color: var(--Blue);
@@ -48,7 +44,7 @@
   }
 
   .navbar-dark .navbar-nav .nav-link {
-    margin-left: 2vw;
+    margin-left: 10vw;
   }
 
   .borderbottom {

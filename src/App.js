@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./HomePage/Home.js";
 import languages from "./Data/Languages.js";
 import Learn from "./Components/Learn";
+import ContactUs from './Components/ContactUs';
 import { Switch, Route } from "react-router-dom";
 import NavBar from "./HomePage/NavBar";
 import Frameworks from "./Components/Tags/Frameworks";
@@ -69,11 +70,14 @@ function App() {
             <Route exact path="/tags" component={Tags} />
             <Route exact path="/softwares" component={Softwares} />
             <Route exact path="/databases" component={Databases} />
+            <Route exact path="/contactus" component={ContactUs} />
             <Route exact path="/" component={Home}></Route>
           </Switch>
           <ScrollToTop />
         </>
       )}
+
+
     </div>
   );
 }

@@ -50,7 +50,7 @@ function NavBar() {
               <Nav.Link href="#about">About</Nav.Link>
               <div className="borderbottom"></div>
               <MdContactMail />
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link href="/contactus">Contact</Nav.Link>
               <div className="borderbottom"></div>
             </Nav>
           </Navbar.Collapse>

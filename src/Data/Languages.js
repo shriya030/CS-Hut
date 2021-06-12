@@ -39,7 +39,111 @@ let languages = [
         "https://github.com/facebook/folly"
       ]
     }
-  }
+  },
+  {
+    title: "C",
+    path: "/languages/c",
+    image: "https://e7.pngegg.com/pngimages/724/306/png-clipart-c-logo-c-programming-language-icon-letter-c-blue-logo.png",
+    documentation: "https://devdocs.io/c/",
+    content: {
+      youtube: [
+        "https://youtu.be/KJgsSFOSQv0",
+        "https://youtu.be/wKoGImLA2KA",
+        "https://youtu.be/8PopR3x-VMY",
+        "https://youtu.be/Bjzfag1zZPg"
+      ],
+      websites: [
+        "https://www.cprogramming.com/",
+        "https://www.learnc.net/",
+        "https://www.geeksforgeeks.org/c-programming-language/?ref=ghm",
+        "https://www.w3schools.in/c-tutorial/"
+      ],
+      courses: [
+        "https://www.udemy.com/course/c-programming-for-beginners-/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-3bw4Bq2UCIxL2BuLyTMy7g&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads",
+        "https://www.coursera.org/specializations/c-programming?ranMID=40328&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-GVERwFS9oCnq56hxC05uCg&siteID=JVFxdTr9V80-GVERwFS9oCnq56hxC05uCg&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=JVFxdTr9V80",
+        "https://www.udemy.com/course/c-programming-for-beginners/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-ggRMpzRFYfzyFmXpkvJV6w&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads",
+        "https://www.pluralsight.com/courses/c-lang-fundamentals?clickid=RofSH8QI%3AxyLWENwUx0Mo3QnUkBwJTRRdQjoVI0&irgwc=1&mpid=1193463&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=1193463&utm_source=impactradius"
+      ],
+      tips: [
+        "https://www.techbeamers.com/top-c-programming-tips-and-tricks-for-you/",
+        "https://hownot2code.com/2016/11/29/c-programming-tips/"
+      ],
+      github: [
+        "https://github.com/trending/c",
+        "https://github.com/TheAlgorithms/C"
+      ]
+    }
+  },
+  {
+    title: "Java",
+    path: "/languages/java",
+    image: "https://i.dlpng.com/static/png/7184294_preview.png",
+    documentation: "https://docs.oracle.com/javase/tutorial/",
+    content: {
+      youtube: [
+        "https://youtu.be/eIrMbAQSU34",
+        "https://youtu.be/8cm1x4bC610",
+        "https://youtu.be/r59xYe3Vyks"
+      ],
+      websites: [
+        "https://www.javatpoint.com/java-tutorial",
+        "https://www.geeksforgeeks.org/java/",
+        "https://www.w3schools.com/java/",
+        "https://www.learnjavaonline.org/"
+      ],
+      courses: [
+        "https://www.udemy.com/course/java-programming-tutorial-for-beginners/",
+        "https://www.coursera.org/specializations/java-programming",
+        "https://www.coursera.org/specializations/core-java",
+        "https://www.coursera.org/specializations/object-oriented-programming"
+      ],
+      tips: [
+        "goodworklabs.com/java-developer-tips/",
+        "https://medium.com/javarevisited/9-tips-to-become-a-better-java-programmer-cad4c9334cc1",
+        "https://dzone.com/articles/10-tips-to-become-a-better-java-developer-in-2018",
+        "https://www.geeksforgeeks.org/how-do-i-become-a-good-java-programmer/"
+      ],
+      github: [
+        "https://github.com/TheAlgorithms/java",
+        "https://github.com/trending/java"        
+      ]
+    }
+  },
+  {
+    title: "JavaScript",
+    path: "/languages/javascript",
+    image: "https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png",
+    documentation: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    content: {
+      youtube: [
+        "https://youtu.be/uDwSnnhl1Ng",
+        "https://youtu.be/cvvwkgp4HBg",
+        "https://youtu.be/Qqx_wzMmFeA"
+      ],
+      websites: [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://www.w3schools.com/js/",
+        "https://www.geeksforgeeks.org/javascript-tutorial/",
+      ],
+      courses: [
+        "https://www.coursera.org/learn/javascript-basics",
+        "https://www.coursera.org/specializations/javascript-beginner",
+        "https://www.udemy.com/course/the-complete-javascript-course/",
+        "https://www.udemy.com/course/modern-javascript-from-the-beginning/"
+      ],
+      tips: [
+        "https://blog.bitsrc.io/10-super-useful-tricks-for-javascript-developers-f1b76691199b?gi=ba0dc147e012",
+        "https://www.educative.io/blog/javascript-tips-simplify-code",
+        "https://www.lambdatest.com/blog/21-tips-to-become-better-in-javascript-much-much-better/",
+      ],
+      github: [
+        "https://github.com/FrontendMasters/front-end-handbook-2018",
+        "https://github.com/TheAlgorithms/javascript",
+        "https://github.com/trending/js"
+      ]
+    }
+  },
+  
 ];
 
 export default languages;

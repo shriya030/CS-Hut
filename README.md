@@ -104,13 +104,14 @@ Tags -
   <table>
   <tr>
   	<td>
-  	<a href="https://github.com/shriya030CS-Hut/graphs/contributors">
+   <a href="https://github.com/shriya030/CS-Hut/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=shriya030/CS-Hut" />
-  </a>
+</a>
   	</td>
   </tr>
   </table>
-  <hr>
+<hr>
+<hr>
 
 
 >## Happy Contribution ✨

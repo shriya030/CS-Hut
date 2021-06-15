@@ -3,35 +3,35 @@ import databases from "../../Data/Databases";
 import "./styles.css";
 import { Link } from "react-router-dom";
 
-function Databases() {
+function Database() {
   return (
     <div className="lang">
       <div className="headings">Databases</div>
       <div class="languages">
-        {databases.map(framework => (
+        {databases.map(database => (
           <div class="flip-card-container">
             <div class="flip-card">
               <div class="card-front">
                 <figure>
                   <div class="img-bg"></div>
-                  <img src={framework.image} alt="" />
-                  <figcaption>{framework.title}</figcaption>
+                  <img src={database.image} alt="" />
+                  <figcaption>{database.title}</figcaption>
                 </figure>
               </div>
 
               <div class="card-back">
                 <figure>
                   <div class="img-bg"></div>
-                  <img src={framework.image} alt="Brohm Lake" />
+                  <img src={database.image} alt="Brohm Lake" />
                 </figure>
                 <div style={{ display: "flex", flexDirection: "column" }}>
                   <div style={{ marginBottom: "5%", marginLeft: "9vh" }}>
-                    <Link to={framework.path}>
+                    <Link to={database.path}>
                       <button>Learn</button>
                     </Link>
                   </div>
                   <div style={{ marginLeft: "3vh" }}>
-                    <a href={framework.documentation}>
+                    <a href={database.documentation}>
                       <button>Documentation</button>
                     </a>
                   </div>
@@ -56,4 +56,4 @@ function Databases() {
   );
 }
 
-export default Databases;
+export default Database;

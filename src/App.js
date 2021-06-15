@@ -78,6 +78,7 @@ function App() {
               />
             ))}
 
+
             <Route exact path="/languages" component={Languages} />
             <Route exact path="/frameworks" component={Frameworks} />
             <Route exact path="/tags" component={Tags} />

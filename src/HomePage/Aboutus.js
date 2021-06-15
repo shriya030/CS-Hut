@@ -4,6 +4,7 @@ import weblogo from "./Images/logo.png";
 
 function Aboutus() {
   return (
+      <div id="ab">
     <div className="aboutus">
       <h1>About us</h1>
       <br className="line" />
@@ -27,6 +28,7 @@ function Aboutus() {
         </div>
       </div>
     </div>
+      </div>
   );
 }
 

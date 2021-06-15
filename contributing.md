@@ -13,7 +13,6 @@ This documentation contains a set of guidelines to help you during the contribut
 We are happy to welcome all the contributions from anyone willing to improve this project. Thank you for helping out and remember, **no contribution is small.** 
  
 - Participants are expected to follow project guidelines and coding style.
-- Each participant/contributor will be assigned **2 issues (max)** at a time to work on.
 - Participants/contributors have to give an update about their work in every **3 days** while completing issues. If not then the issue will be assigned to other.
 - Participants/contributors have to **comment** on issues they would like to work on, and mentors will assign you. Direct PRs for Open to all issues .
 - Issues will be assigned on a **first-come, first-serve basis**.

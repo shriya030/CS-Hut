@@ -31,7 +31,7 @@ function Database() {
                     </Link>
                   </div>
                   <div style={{ marginLeft: "3vh" }}>
-                    <a href={database.documentation}>
+                    <a href={database.documentation} target="_blank" rel="noreferrer">
                       <button>Documentation</button>
                     </a>
                   </div>

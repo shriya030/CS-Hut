@@ -31,7 +31,7 @@ function Softwares() {
                     </Link>
                   </div>
                   <div style={{ marginLeft: "3vh" }}>
-                    <a href={framework.documentation}>
+                    <a href={framework.documentation} target="_blank" rel="noreferrer">
                       <button>Documentation</button>
                     </a>
                   </div>

@@ -14,6 +14,7 @@ import ScrollToTop from "./Components/ScrollToTop";
 import Languages from "./Components/Tags/Languages";
 import { useState, useEffect } from "react";
 import PropagateLoader from "react-spinners/PropagateLoader";
+import databases from "./Data/Databases";
 
 console.log(languages);
 
@@ -65,11 +66,21 @@ function App() {
               />
             ))}
 
+            {databases.map((database, i)=>{
+              <Route exact 
+              path={database.path}
+              key={i}
+              render={() => {
+                <Learn name={database.title} content={database.content} />
+              }}
+              />
+            })}
+
             <Route exact path="/languages" component={Languages} />
             <Route exact path="/frameworks" component={Frameworks} />
             <Route exact path="/tags" component={Tags} />
             <Route exact path="/softwares" component={Softwares} />
-            <Route exact path="/databases" component={Databases} />
+            <Route exact path="/development" component={Databases} />
             <Route exact path="/contactus" component={ContactUs} />
             <Route exact path="/" component={Home}></Route>
           </Switch>

@@ -1,5 +1,5 @@
 import React from "react";
-import frameworks from "../../Data/Frameworks";
+import databases from "../../Data/Databases";
 import "./styles.css";
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ function Databases() {
     <div className="lang">
       <div className="headings">Databases</div>
       <div class="languages">
-        {frameworks.map(framework => (
+        {databases.map(framework => (
           <div class="flip-card-container">
             <div class="flip-card">
               <div class="card-front">

@@ -14,6 +14,7 @@ import ScrollToTop from "./Components/ScrollToTop";
 import Languages from "./Components/Tags/Languages";
 import { useState, useEffect } from "react";
 import PropagateLoader from "react-spinners/PropagateLoader";
+import databases from "./Data/Databases";
 
 console.log(languages);
 
@@ -54,6 +55,18 @@ function App() {
             ))}
 
             {languages.map((language, i) => (
+              <Route
+                exact
+                path={language.path}
+                key={i}
+                // whenever we want to use props, we will use render instead of components
+                render={() => (
+                  <Learn name={language.title} content={language.content} />
+                )}
+              />
+            ))}
+
+            {databases.map((language, i) => (
               <Route
                 exact
                 path={language.path}

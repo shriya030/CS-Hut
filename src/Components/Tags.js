@@ -27,7 +27,7 @@ function Tags() {
             </div>
           </div>
         </Link>
-        <Link to="/development">
+        <Link to="/databases">
           <div class="cards__item">
             <div class="card">
               <div class="card__content">

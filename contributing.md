@@ -20,7 +20,7 @@ We are happy to welcome all the contributions from anyone willing to improve thi
 - Participants/contributors can also **open their issues**, but it needs to be verified and labelled by a mentor.
 - Before opening a new issue, please **check** if it is already created or not.
 - Pull requests will be merged after being **reviewed by a mentor**.
-- Create a pull request from a **branch** other than `main` ,that means you have to create a new branch for every pull request.
+- Create a pull request from a **branch** other than `master` ,that means you have to create a new branch for every pull request.
 - It might take a day to review your pull request. Please have patience and be nice.
 - We all are here to learn. You are allowed to make mistakes. That's how you learn, right!
  

@@ -67,3 +67,30 @@
     padding: 10px;
 }
 
+/* Responsive Contact-Us*/
+@media (max-width:520px){
+    .parent_div{
+        height: 530px;
+        width: 500px;
+    }
+    .child_div{
+        width: 300px;
+        height: 60px;
+    }
+}
+@media (max-width:320px){
+    .h1tag{
+        font-size: 25px;
+    }
+    .form-control{
+        width: 350px;
+    }
+    .child_div{
+        padding: 15px;
+        width: 200px;
+        height: 60px;
+    }
+    .btn{
+        margin-right: 15px;
+    }
+}

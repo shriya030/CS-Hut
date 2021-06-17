@@ -15,6 +15,7 @@ import Languages from "./Components/Tags/Languages";
 import { useState, useEffect } from "react";
 import PropagateLoader from "react-spinners/PropagateLoader";
 import databases from "./Data/Databases";
+import Resources from "./Components/Resources";
 
 console.log(languages);
 
@@ -85,6 +86,7 @@ function App() {
             <Route exact path="/softwares" component={Softwares} />
             <Route exact path="/databases" component={Databases} />
             <Route exact path="/contactus" component={ContactUs} />
+            <Route exact path="/resources" component={Resources} />
             <Route exact path="/" component={Home}></Route>
           </Switch>
           <ScrollToTop />

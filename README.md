@@ -1,38 +1,52 @@
+<div align="center"> 
+
+ 
+<a href="https://github.com/shriya030/CS-Hut"><img src="https://github.com/shriya030/CS-Hut/raw/master/src/HomePage/Images/logo.png"></a>
+
+<a href="https://github.com/shriya030/CS-Hut"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/shriya030/CS-Hut"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
+<a href="https://github.com/shriya030/CS-Hut"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
+<a href="https://github.com/shriya030/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
+<a href="https://github.com/shriya030/CS-Hut"><img src="https://img.shields.io/badge/PR's%3F-Welcomed-brightgreen.svg?v=103"></a>
+
+<a href="https://github.com/shriya030/CS-Hut/watchers"><img src="https://img.shields.io/github/watchers/shriya030/CS-Hut?style=flat"></a> 
+<a href="https://github.com/shriya030/CS-Hut/graphs/contributors"><img src="https://img.shields.io/github/contributors/shriya030/CS-Hut?color=brightgreen"></a>
+<a href="https://github.com/shriya030/CS-Hut/stargazers"><img src="https://img.shields.io/github/stars/shriya030/CS-Hut?color=0059b3"></a>
+<a href="https://github.com/shriya030/CS-Hut/network/members"><img src="https://img.shields.io/github/forks/shriya030/CS-Hut?color=yellow"></a>
+<a href="https://github.com/shriya030/CS-Hut/issues"><img src="https://img.shields.io/github/issues/shriya030/CS-Hut?color=0059b3"></a>
+<a href="https://github.com/shriya030/CS-Hut/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/shriya030/CS-Hut?color=yellow"></a>
+<a href="https://github.com/shriya030/CS-Hut/pulls"><img src="https://img.shields.io/github/issues-pr/shriya030/CS-Hut?color=brightgreen"></a>
+<a href="https://github.com/shriya030/CS-Hut/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/shriya030/CS-Hut?color=0059b3"></a> 
+
+<a href="https://github.com/topics/html5"><img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/></a>
+<a href="https://github.com/topics/css3"><img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/></a>
+<a href="https://github.com/topics/javascript"><img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/></a> 
+<a href="https://github.com/topics/react"><img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> </a> 
+<a href="https://github.com/topics/bootstrap"> <img alt="React Bootstrap" src="https://img.shields.io/badge/react bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/></a> 
+</div>
+
+
 >## CS-Hut 💻
 
 <h4>"Your Guide to learn and apply in-demand technologies, all under one HUT !!"</h4>
 
 CS-Hut is the one-stop place to find resources to learn and apply various computer Science technologies.
 
-![](https://github.com/shriya030/CS-Hut/raw/master/src/HomePage/Images/logo.png)
 ## About 📚
 **CS-HUT** _is designed for those who really want to learn languages, frameworks.**Talent is Universal, but opportunities are not**
 . With access to online learning resources and instruction, anyone, anywhere, can gain skills and trasnsform their lives in meaningful ways. We believe that world's best teachers aren't always found in classrooms. They can come from virtually every country !! That's why we have tried to gather the best resources from instructors and organisations who are passionate about sharing their knowledge and helping students. They are experts who stay active in their fields in order to deliver the most up-to-date content. In short, we have done our best possible to help you in your journey to excel.
 
 
-<br>
-<br>
+<h2 id="technology-stack">Technology Stack 🚀</h2> 
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?v=103)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Maintenance](https://img.shields.io/badge/PR's%3F-Welcomed-brightgreen.svg?v=103)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-
-<br>
-
-[![Issues](https://img.shields.io/github/issues/shriya030/CS-Hut)](https://github.com/shriya030/CS-Hut/issues) [![PRs](https://img.shields.io/github/issues-pr/shriya030/CS-Hut)](https://github.com/shriya030/CS-Hut/pulls) [![Maintenance](https://img.shields.io/maintenance/yes/2021?color=green&logo=github)](https://github.com/shriya030/CS-Hut) [![Forks](https://img.shields.io/github/forks/shriya030/CS-Hut?style=social)](https://github.com/shriya030/CS-Hut) [![Stars](https://img.shields.io/github/stars/shriya030/CS-Hut?style=social)](https://github.com/shriya030/CS-Hut) [![Watchers](https://img.shields.io/github/watchers/shriya030/CS-Hut?style=social)](https://github.com/shriya030/CS-Hut)
-
-<br>
-
-<h2 align="center" id="technology-stack">Technology Stack 🚀</h2> 
-<br>
 
 - **Library** - ReactJS
 - **Framework** - React-Bootstrap
-<p align="center">
-<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/><img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="React Bootstrap" src="https://img.shields.io/badge/react bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
-​    <hr>
+
 
 <h2>Table of contents</h2>
 
-1. [Install](#install)
+1. [Install](https://github.com/shriya030/CS-Hut#install)
 2. [How to contribute?](https://github.com/shriya030/CS-Hut/blob/master/contributing.md)
 3. [Contributing Resources](#contributing-resources)
 4. [Technology Stack](#technology-stack)

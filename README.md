@@ -95,6 +95,36 @@ Tags -
 
 ![image](https://letsgrowmore.in/wp-content/uploads/2021/05/cropped-growmore-removebg-preview.png)
 
+### Levels & Points
+
+<table>
+  <tr>
+    <th>Level</th>
+    <th>Points</th> 
+  </tr>
+  <tr>
+    <td>Level 0</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Level 1</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Level 2</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td>Level 3</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Level 4</td>
+    <td>45</td>
+  </tr>
+</table>
+<br>
+
 - **Library** - ReactJS
 - **Framework** - React-Bootstrap
   <p align="center">

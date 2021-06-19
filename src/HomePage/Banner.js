@@ -3,6 +3,10 @@ import "./Banner.css";
 import BackGround from "../Video/bannerback.mp4";
 import Typed from "react-typed";
 import { Link } from "react-router-dom";
+import Chatbot from "react-chatbot-kit";
+import Config from "../ChatBot/Config";
+import ActionProvider from "../ChatBot/ActionProvider";
+import MessageParser from "../ChatBot/MessageParse";
 
 function Banner() {
   return (
@@ -53,6 +57,15 @@ function Banner() {
         <Link to="/tags">
           <button variant="contained">Let's Begin</button>
         </Link>
+      </div>
+      <div className="chatbot">
+        <div style={{maxWidth:"400px"}}>
+        <Chatbot className="mainChat"
+        config={Config}
+        messageParser={MessageParser}
+        actionProvider={ActionProvider}
+      />
+        </div>
       </div>
 
       <div className="bg"></div>

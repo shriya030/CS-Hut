@@ -1,32 +1,6 @@
 .tags a {
   text-decoration: none;
 }
-
-.tags .btn {
-  background-color: white;
-  border: 1px solid #cccccc;
-  border-radius: 1rem;
-  color: #696969;
-  padding: 0.5rem;
-  text-transform: lowercase;
-}
-
-.tags .btn--block {
-  display: block;
-  width: 100%;
-}
-
-.tags .cards {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  margin: 0;
-  margin-top: 10vh;
-}
-
-.tags .cards__item {
-  padding: 1rem;
-}
-
 .tags .headings:hover {
   text-shadow: 2px 3px 10px var(--SkyBlue);
   transform: scale(1.5);
@@ -44,82 +18,73 @@
   left: 0;
   right: 0;
   margin-top: 17vh;
+  padding-bottom: 20PX;
   transition: 0.6s;
 }
 
-.tags .card {
-  background-color: white;
-  border-radius: 1rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  transition: 0.8s all;
+ .tags .wrapper{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
 }
-
+ .tags .card{
+     width: clamp(21rem,20rem,30rem);
+     min-height: 270px;
+     background: #ffffff;
+     padding: 30px;
+     box-sizing: border-box;
+     color: #696969;
+     margin:20px;
+     border: 5px solid;
+     border-radius: 25px;
+     box-shadow: 0px 2px 18px -4px rgb(64, 64, 64);
+     transition: transform .5s;
+}
 .tags .card:hover {
-  transform: scale(1.05);
-  transition: 0.8s all;
+  background-color: aliceblue;
+  border: 5px solid #66f0f1;
+  transform: scale(0.9); 
+}
+ .tags .card___title{
+     margin-top: 0;
+     font-size: 20px;
+     font-weight: 600;
+     letter-spacing: 1.2px;
+     justify-content: center;
+}
+ .tags .card__content{
+    padding: 1em 0em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags .card__text{
+    background-color: #007bff;
+    color: #fff;
+    padding: .2em .5em;
+    border-radius: 4px;
+    margin-left: .5em;
+    transition: all .1s;
+    cursor: pointer;
+    margin-top: .5em;
+}
+.tags .card-btn{
+     all: unset;
+     display: block;
+     margin-left: auto;
+     border: 2px solid #a6a6a6;
+     padding: 10px 15px;
+     border-radius: 25px;
+     font-size: 15px;
+     font-weight: 600;
+     transition: all 0.5s;
+     cursor: pointer;
+     letter-spacing: 1.2px;
+     margin-top: 35px;
+    color: #2a9fa5;
+}
+ .tags .card-btn:hover{
+    color:#02b875;
+    background: #FFF;
 }
 
-.tags .card__content {
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem;
-}
-
-.tags .card__image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  filter: contrast(70%);
-  /* filter: saturate(180%); */
-  overflow: hidden;
-  position: relative;
-  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
-  /* &::before {
-    content: "";
-    display: block;
-    padding-top: 56.25%;
-  } */
-  /* @media (min-width: 40rem) {
-    &::before {
-      padding-top: 66.6%;
-    }
-  } */
-}
-
-.tags .card__title {
-  color: #696969;
-  font-size: 1.25rem;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.tags .card__text {
-  flex: 1 1 auto;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;
-}
-
-@media (max-width: 1150px) {
-  .tags .cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 1008px) {
-  .tags .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 755px) {
-  .tags .cards {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}

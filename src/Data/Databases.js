@@ -95,7 +95,7 @@ let databases = [
         title: "SQL",
         path: "/databases/sql",
         image:
-            "http://fountaindale.libnet.info/images/events/fountaindale/S300_20_SQL.png",
+            "https://w7.pngwing.com/pngs/552/345/png-transparent-sql-database-computer-icons-sql-icon-blue-text-rectangle.png",
         documentation: "https://dev.mysql.com/doc/",
         content: {
             youtube: [

@@ -25,7 +25,8 @@ export default function ContactUs() {
         input name = "user-name"
         type = "text"
         className = "form-control boder shadow"
-        placeholder = "John Doe" / >
+        placeholder = "John Doe"
+        required / >
         <
         /div>
 
@@ -37,7 +38,8 @@ export default function ContactUs() {
         type = "email"
         className = "form-control boder shadow"
         id = "exampleFormControlInput1"
-        placeholder = "name@example.com" / >
+        placeholder = "name@example.com"
+        required / >
         <
         /div>
 
@@ -48,7 +50,8 @@ export default function ContactUs() {
         textarea name = "message"
         className = "form-control boder shadow"
         id = "exampleFormControlTextarea1"
-        rows = "3" > < /textarea> <
+        rows = "3"
+        required > < /textarea> <
         /div><br></br >
         <
         button type = "submit"

@@ -58,8 +58,8 @@ function Banner() {
           <button variant="contained">Let's Begin</button>
         </Link>
       </div>
-      <div className="chatbot">
-        <div style={{maxWidth:"400px"}}>
+      <div className="chatbot" >
+        <div className="bot" style={{marginTop:"-15%", marginLeft:"80%", position:"fixed", minWidth:"300px"}}>
         <Chatbot className="mainChat"
         config={Config}
         messageParser={MessageParser}

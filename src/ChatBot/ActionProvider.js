@@ -9,6 +9,7 @@ class ActionProvider {
         this.addMessageToChat(message);
     }; 
 
+
     greet1 = () => {
         const message = this.createChatBotMessage("copy this link and start learning https://devdocs.io/javascript/");
         this.addMessageToChat(message);
@@ -69,13 +70,13 @@ class ActionProvider {
         this.addMessageToChat(message);
     };
 
+
     addMessageToChat = (message) => {
         this.setState(prevState => ({
             ...prevState,
             messages: [...prevState.messages, message],
         }));
     }
-    
 }
   
 export default ActionProvider;

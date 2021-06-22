@@ -44,7 +44,7 @@ function Banner() {
           {" "}
           <Typed
             strings={[
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+               "Your Guide to learn and apply in-demand technologies, all under one HUT !!"
             ]}
             typeSpeed={40}
           ></Typed>{" "}

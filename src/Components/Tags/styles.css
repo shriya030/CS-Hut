@@ -26,7 +26,8 @@
 .lang .headings {
   font-family: "Permanent Marker", cursive;
   color: white !important;
-  top: 40vh;
+  top: 30vh;
+  padding-bottom: 14vh;
   font-size: 40px;
   text-align: center;
   max-width: 600px;
@@ -62,6 +63,7 @@
   margin: 40px;
 
   perspective: 1000px;
+  margin-bottom: -20px;
 }
 
 .card-back a {

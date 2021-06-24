@@ -88,7 +88,7 @@ let languages = [
 	    	"https://github.com/coodict/python3-in-one-pic"
       ]
     }
-  }
+  },
   {
     title: "C",
     path: "/languages/c",

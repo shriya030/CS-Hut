@@ -70,79 +70,79 @@ let languages = [{
                 "https://www.geeksforgeeks.org/free-python-course-for-beginners/"
             ],
 
-            tips: [
-                "https://medium.com/star-gazers/10-python-tips-and-tricks-that-make-your-code-better-f8f78d335bae",
-                "https://medium.com/pythonland/30-python-language-tricks-that-will-make-you-a-better-coder-f08f811a7b0f",
-                "https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865",
-                "https://realpython.com/python-beginner-tips/",
-                "https://www.geeksforgeeks.org/optimization-tips-python-code/",
-                "https://www.programming-hero.com/blog/20-python-tips-and-tricks-for-new-python-developers.html"
-            ],
-            github: [
-                "https://github.com/codingforentrepreneurs/30-Days-of-Python",
-                "https://github.com/CodementorIO/Python-Learning-Resources",
-                "https://github.com/qiwsir/StarterLearningPython",
-                "https://github.com/jerry-git/learn-python3",
-                "https://github.com/trekhleb/learn-python",
-                "https://github.com/coodict/python3-in-one-pic"
-            ]
-        }
-    },
-    {
-        title: "C",
-        path: "/languages/c",
-        image: "https://e7.pngegg.com/pngimages/724/306/png-clipart-c-logo-c-programming-language-icon-letter-c-blue-logo.png",
-        documentation: "https://devdocs.io/c/",
-        content: {
-            youtube: [
-                "https://youtu.be/KJgsSFOSQv0",
-                "https://youtu.be/wKoGImLA2KA",
-                "https://youtu.be/8PopR3x-VMY",
-                "https://youtu.be/Bjzfag1zZPg",
-                "https://youtu.be/EjavYOFoJJ0",
-                "https://youtu.be/RBSGKlAvoiM"
-            ],
-            websites: [
-                "https://www.cprogramming.com/",
-                "https://www.learnc.net/",
-                "https://www.geeksforgeeks.org/c-programming-language/?ref=ghm",
-                "https://www.w3schools.in/c-tutorial/",
-                "https://www.learnvern.com/course/advanced-c-language-tutorial-hindi",
-                "https://www.learn-c.org/"
-            ],
-            courses: [
-                "https://www.udemy.com/course/c-programming-for-beginners-/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-3bw4Bq2UCIxL2BuLyTMy7g&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads",
-                "https://www.coursera.org/specializations/c-programming?ranMID=40328&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-GVERwFS9oCnq56hxC05uCg&siteID=JVFxdTr9V80-GVERwFS9oCnq56hxC05uCg&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=JVFxdTr9V80",
-                "https://www.udemy.com/course/c-programming-for-beginners/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-ggRMpzRFYfzyFmXpkvJV6w&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads",
-                "https://www.pluralsight.com/courses/c-lang-fundamentals?clickid=RofSH8QI%3AxyLWENwUx0Mo3QnUkBwJTRRdQjoVI0&irgwc=1&mpid=1193463&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=1193463&utm_source=impactradius",
-                "https://www.coursera.org/specializations/c-programming",
-                "https://nptel.ac.in/courses/106/104/106104128/"
-            ],
-            tips: [
-                "https://www.techbeamers.com/top-c-programming-tips-and-tricks-for-you/",
-                "https://hownot2code.com/2016/11/29/c-programming-tips/",
-                "https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628",
-                "https://www.learn-c.org/"
-            ],
-            github: [
-                "https://github.com/trending/c",
-                "https://github.com/TheAlgorithms/C",
-            ]
-        }
-    },
-    {
-        title: "Java",
-        path: "/languages/java",
-        image: "https://i.dlpng.com/static/png/7184294_preview.png",
-        documentation: "https://docs.oracle.com/javase/tutorial/",
-        content: {
-            youtube: [
-                "https://youtu.be/eIrMbAQSU34",
-                "https://youtu.be/8cm1x4bC610",
-                "https://youtu.be/r59xYe3Vyks",
-                "https://nptel.ac.in/courses/106/105/106105191",
-                "https://youtu.be/grEKMHGYyns",
-                "https://youtu.be/hkx_JFFwM1o"
+      tips: [
+        "https://medium.com/star-gazers/10-python-tips-and-tricks-that-make-your-code-better-f8f78d335bae",
+	    	"https://medium.com/pythonland/30-python-language-tricks-that-will-make-you-a-better-coder-f08f811a7b0f",
+	    	"https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865",
+	    	"https://realpython.com/python-beginner-tips/",
+	    	"https://www.geeksforgeeks.org/optimization-tips-python-code/",
+	    	"https://www.programming-hero.com/blog/20-python-tips-and-tricks-for-new-python-developers.html"
+      ],
+      github: [
+        "https://github.com/codingforentrepreneurs/30-Days-of-Python",
+	    	"https://github.com/CodementorIO/Python-Learning-Resources",
+	    	"https://github.com/qiwsir/StarterLearningPython",
+	    	"https://github.com/jerry-git/learn-python3",
+	    	"https://github.com/trekhleb/learn-python",
+	    	"https://github.com/coodict/python3-in-one-pic"
+      ]
+    }
+  },
+  {
+    title: "C",
+    path: "/languages/c",
+    image: "https://e7.pngegg.com/pngimages/724/306/png-clipart-c-logo-c-programming-language-icon-letter-c-blue-logo.png",
+    documentation: "https://devdocs.io/c/",
+    content: {
+      youtube: [
+        "https://youtu.be/KJgsSFOSQv0",
+        "https://youtu.be/wKoGImLA2KA",
+        "https://youtu.be/8PopR3x-VMY",
+        "https://youtu.be/Bjzfag1zZPg",
+        "https://youtu.be/EjavYOFoJJ0",
+        "https://youtu.be/RBSGKlAvoiM"
+      ],
+      websites: [
+        "https://www.cprogramming.com/",
+        "https://www.learnc.net/",
+        "https://www.geeksforgeeks.org/c-programming-language/?ref=ghm",
+        "https://www.w3schools.in/c-tutorial/",
+        "https://www.learnvern.com/course/advanced-c-language-tutorial-hindi",
+        "https://www.learn-c.org/"
+      ],
+      courses: [
+        "https://www.udemy.com/course/c-programming-for-beginners-/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-3bw4Bq2UCIxL2BuLyTMy7g&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads",
+        "https://www.coursera.org/specializations/c-programming?ranMID=40328&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-GVERwFS9oCnq56hxC05uCg&siteID=JVFxdTr9V80-GVERwFS9oCnq56hxC05uCg&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=JVFxdTr9V80",
+        "https://www.udemy.com/course/c-programming-for-beginners/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-ggRMpzRFYfzyFmXpkvJV6w&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads",
+        "https://www.pluralsight.com/courses/c-lang-fundamentals?clickid=RofSH8QI%3AxyLWENwUx0Mo3QnUkBwJTRRdQjoVI0&irgwc=1&mpid=1193463&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=1193463&utm_source=impactradius",
+        "https://www.coursera.org/specializations/c-programming",
+        "https://nptel.ac.in/courses/106/104/106104128/"
+      ],
+      tips: [
+        "https://www.techbeamers.com/top-c-programming-tips-and-tricks-for-you/",
+        "https://hownot2code.com/2016/11/29/c-programming-tips/",
+        "https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628",
+        "https://www.learn-c.org/"
+      ],
+      github: [
+        "https://github.com/trending/c",
+        "https://github.com/TheAlgorithms/C",
+      ]
+    }
+  },
+  {
+    title: "Java",
+    path: "/languages/java",
+    image: "https://i.dlpng.com/static/png/7184294_preview.png",
+    documentation: "https://docs.oracle.com/javase/tutorial/",
+    content: {
+      youtube: [
+        "https://youtu.be/eIrMbAQSU34",
+        "https://youtu.be/8cm1x4bC610",
+        "https://youtu.be/r59xYe3Vyks",
+        "https://nptel.ac.in/courses/106/105/106105191",
+        "https://youtu.be/grEKMHGYyns",
+        "https://youtu.be/hkx_JFFwM1o"
 
             ],
             websites: [

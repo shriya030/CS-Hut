@@ -218,6 +218,7 @@
   top: 30vh;
   display: flex;
   z-index: -1;
+  padding-top: 10vh;
 }
 
 .learn .card {

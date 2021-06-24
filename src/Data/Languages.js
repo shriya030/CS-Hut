@@ -133,7 +133,7 @@ let languages = [{
   {
     title: "Java",
     path: "/languages/java",
-    image: "https://i.dlpng.com/static/png/7184294_preview.png",
+    image: "https://wallpapercave.com/wp/wp7250034.jpg",
     documentation: "https://docs.oracle.com/javase/tutorial/",
     content: {
       youtube: [

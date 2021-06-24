@@ -91,7 +91,7 @@ let languages = [{
   {
     title: "C",
     path: "/languages/c",
-    image: "https://e7.pngegg.com/pngimages/724/306/png-clipart-c-logo-c-programming-language-icon-letter-c-blue-logo.png",
+    image: "https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png",
     documentation: "https://devdocs.io/c/",
     content: {
       youtube: [
@@ -133,7 +133,7 @@ let languages = [{
   {
     title: "Java",
     path: "/languages/java",
-    image: "https://wallpapercave.com/wp/wp7250034.jpg",
+    image: "http://assets.stickpng.com/images/58480979cef1014c0b5e4901.png",
     documentation: "https://docs.oracle.com/javase/tutorial/",
     content: {
       youtube: [

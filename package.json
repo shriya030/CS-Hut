@@ -2,6 +2,9 @@
   "home": "http://shriya030.github.io/CS-Hut",
   "name": "project",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",

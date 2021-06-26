@@ -3,7 +3,11 @@ import "./Banner.css";
 import BackGround from "../Video/bannerback.mp4";
 import Typed from "react-typed";
 import { Link } from "react-router-dom";
-import SimpleForm from "./SimpleForm";
+import Chatbot from "react-chatbot-kit";
+import config from "../ChatBot/Config";
+import ActionProvider from "../ChatBot/ActionProvider";
+import MessageParser from "../ChatBot/MessageParse";
+
 
 function Banner() {
   return (
@@ -55,7 +59,15 @@ function Banner() {
           <button variant="contained">Let's Begin</button>
         </Link>
       </div>
-      <SimpleForm />
+      <div className="App">
+      <div style={{ maxWidth: "400px", marginLeft:"80%", marginTop:"-17%" }}>
+        <Chatbot 
+          config={config}
+          actionProvider={ActionProvider}
+          messageParser={MessageParser}
+        />
+      </div>
+    </div>
       <div className="bg"></div>
       <div className="bg bg2"></div>
       <div className="bg bg3"></div>

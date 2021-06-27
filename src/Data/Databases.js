@@ -44,6 +44,51 @@ let databases = [
                 "https://github.com/firebase/quickstart-cpp "
             ]
         }
+    },{
+        title: "Laravel",
+        path: "/databases/laravel",
+        image:
+            "https://cms-assets.tutsplus.com/uploads/users/769/posts/25334/preview_image/get-started-with-laravel-6-400x277.png ",
+        documentation: "https://laravel.com/docs/8.x/installation ",
+        content: {
+            youtube: [
+                "https://www.youtube.com/watch?v=ImtZ5yENzgE ",
+                "https://www.youtube.com/watch?v=kEeFHJhxHG0 ",
+                "https://www.youtube.com/watch?v=0urHFBFHsLc&list=PL8p2I9GklV46dciS4GDzBFHBi0JVIbnzT ",
+                "https://www.youtube.com/watch?v=EU7PRmCpx-0&list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ- ",
+                "https://www.youtube.com/watch?v=MFh0Fd7BsjE ",
+                "https://www.youtube.com/watch?v=bkyjiXSx6WE"
+            ],
+            websites: [
+                "https://www.udemy.com/topic/laravel/ ",
+                "https://laracasts.com/series/laravel-from-scratch-2018 ",
+                "https://www.awwwards.com/websites/laravel/ ",
+                "https://codecondo.com/15-websites-built-with-laravel/ ",
+                "https://stackify.com/laravel-tutorial-sites-resources/ "
+            ],
+            courses: [
+                "https://www.udemy.com/course/master-laravel-6-with-vuejs-fullstack-development/ ",
+                "https://www.pluralsight.com/courses/laravel-php-framework-getting-started-users-authentication?clickid=yI2yGcQYVxyLRWNwUx0Mo3QpUkB1bBWQDz7FQA0&irgwc=1&mpid=1193463&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=1193463&utm_source=impactradius ",
+                "https://www.udemy.com/course/laravel-database-queries-from-beginner-to-super-advanced/ ",
+                "https://www.reddit.com/r/laravel/comments/9m0ynt/best_resources_for_learning_laravel/ "
+            ],
+            tips: [
+                "https://www.udemy.com/course/laravel-tips-and-tricks/ ",
+                "https://javorovic.com/blog/10-tips-for-beginners-laravel ",
+                "https://code.tutsplus.com/tutorials/25-laravel-tips-and-tricks--pre-92818 ",
+                "https://laravel-news.com/seven-tips-to-learn-laravel-more-effectively ",
+                "https://www.cloudways.com/blog/laravel-tutorials-for-beginners/ "
+                
+            ],
+            github: [
+                "https://github.com/laravel/laravel ",
+                "https://github.com/laravel/framework ",
+                "https://github.com/GrahamCampbell/Laravel-GitHub ",
+                "https://github.com/laravel/docs ",
+                "https://github.com/laravel/nova-dusk-suite ",
+                "https://github.com/laravel/cashier-stripe "
+            ]
+        }
     },
     {
         title: "MongoDB",
@@ -88,6 +133,99 @@ let databases = [
                 "https://github.com/mongodb/node-mongodb-native ",
                 "https://github.com/mongodb/docs-realm ",
                 "https://github.com/mongodb/mongo-ruby-driver "
+            ]
+        }
+    },
+    {
+        title: "PostgreSql",
+        path: "/databases/postgresql",
+        image:
+            "https://computingforgeeks.com/wp-content/uploads/2018/11/Install-PostgreSQL-11-Fedora-29-min.jpg",
+        documentation: "https://www.postgresql.org/docs/",
+        content: {
+            youtube: [
+                "https://www.youtube.com/watch?v=qw--VYLpxG4 ",
+                "https://www.youtube.com/watch?v=-VO7YjQeG6Y ",
+                "https://www.youtube.com/watch?v=4G7JkF_e5LM&list=PLzAy3QBHoWZdxPXkD7UVymWm_Do3IdzwQ ",
+                "https://www.youtube.com/watch?v=eMIxuk0nOkU ",
+                "https://www.youtube.com/watch?v=EOTY-p5h74E ",
+                "https://www.youtube.com/watch?v=uoJjDbL-Y_E "
+            ],
+            websites: [
+                "https://www.pgsclusters.com/?gclid=Cj0KCQjw_dWGBhDAARIsAMcYuJyjhAjaTaBmu1baKL-sm2oj-GLGUmeMQeksr4JVFn_XoR3ah7FI0GMaAtOpEALw_wcB ",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4827575&q=site:https%3A%2F%2Fwww.citusdata.com%2Ffeed.xml ",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=5288918&q=site:https%3A%2F%2Fblog.crunchydata.com%2Fblog%2Frss.xml ",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4621312&q=site:https%3A%2F%2Fwww.2ndquadrant.com%2Fen%2Fblog%2Ffeed%2F ",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=5128458&q=site:https%3A%2F%2Fdbtut.com%2Findex.php%2Ffeed%2F "
+            ],
+            courses: [
+                "https://www.udemy.com/course/sql-and-postgresql-for-beginners/?ranMID=39197&ranEAID=vedj0cWlu2Y&ranSiteID=vedj0cWlu2Y-bPg.G7j8NzLWhjHPV.I2_g&LSNPUBID=vedj0cWlu2Y&utm_source=aff-campaign&utm_medium=udemyads",
+                "https://www.udemy.com/course/complete-python-postgresql-database-course/?altsc=781502 ",
+                "https://mindmajix.com/postgresql-training?utm_source=google&utm_medium=cpc&utm_campaign=ind&gclid=Cj0KCQjw_dWGBhDAARIsAMcYuJylofQAdF5l0oG1NsCiIga_dk-gMXYheOHJz09fU4rBdEg7NCz_wMwaAhw1EALw_wcB ",
+                "https://www.linkedin.com/learning/topics/postgresql?src=aff-lilpar&veh=aff_src.aff-lilpar_c.partners_pkw.1238999_plc.Digital%20Defynd%20-%20LinkedIn%20Learning_pcrid.449670_learning&trk=aff_src.aff-lilpar_c.partners_pkw.1238999_plc.Digital%20Defynd%20-%20LinkedIn%20Learning_pcrid.449670_learning&clickid=yI2yGcQYVxyLRWNwUx0Mo3QpUkB1bTw4Dz%3AsUw0&irgwc=1 ",
+                "https://www.pluralsight.com/courses/postgresql-getting-started?clickid=yI2yGcQYVxyLRWNwUx0Mo3QpUkB1bTyYDz%3AsUw0&irgwc=1&mpid=1205423&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=1205423&utm_source=impactradius "
+            ],
+            tips: [
+                "https://www.freecodecamp.org/news/postgresql-tricks/ ",
+                "https://www.cybertec-postgresql.com/en/tips-and-tricks-to-kick-start-postgres-year-2020/ ",
+                "https://www.enterprisedb.com/blog/tips-postgres-postgres-insider ",
+                "https://www.2ndquadrant.com/en/blog/7-best-practice-tips-for-postgresql-bulk-data-loading/ ",
+                "https://pgdash.io/blog/postgres-psql-tips-tricks.html ",
+                "https://thoughtbot.com/blog/advanced-postgres-performance-tips "
+            ],
+            github: [
+                "https://github.com/postgres/postgres ",
+                "https://github.com/dbcli/pgcli ",
+                "https://github.com/postgres/pgadmin4 ",
+                "https://github.com/postgres/pgweb ",
+                "https://github.com/postgres/pgarchives ",
+                "https://github.com/postgres/postgres-old-soon-decommissioned "
+            ]
+        }
+    },
+    {
+        title: "Spring",
+        path: "/databases/spring",
+        image:
+            "https://i.pinimg.com/originals/af/d3/64/afd364cbc5b33bbdcffe2b13190f557b.png",
+        documentation: "https://spring.io/projects/spring-restdocs ",
+        content: {
+            youtube: [
+                "https://www.youtube.com/watch?v=If1Lw4pLLEo ",
+                "https://www.youtube.com/watch?v=gq4S-ovWVlM ",
+                "https://www.youtube.com/watch?v=KRMNTudb0AY&list=PL0zysOflRCekeiERASkpi-crREVensZGS ",
+                "https://www.youtube.com/watch?v=VvGjZgqojMc ",
+                "https://www.youtube.com/watch?v=MHoFSfXGX_A&list=PLw_k9CF7hBpJJsRWAhwSrDlWAzuMV0irl "
+            ],
+            websites: [
+                "https://www.udemy.com/topic/spring-framework/ ",
+                "https://www.coursera.org/courses?query=spring%20framework ",
+                "https://www.baeldung.com/ ",
+                "https://www.petrikainulainen.net/spring-from-the-trenches/ ",
+                "http://springtutorials.com/ "
+            ],
+            courses: [
+                "https://www.udemy.com/course/spring-mvc-spring-boot-spring-data-all-modules/",
+                "https://www.pluralsight.com/courses/spring-fundamentals?aid=7010a000002BWq6AAG&promo=&utm_source=non_branded&utm_medium=digital_paid_search_google&utm_campaign=IN_Dynamic&utm_content=&gclid=CjwKCAjwoNuGBhA8EiwAFxomA_i6B08GieMp5_SMyGVx_1SO0lWQZXyioVQZbcrbqNWiLEO-1a8UJxoCYnYQAvD_BwE ",
+                "https://www.linkedin.com/learning/spring-spring-mvc-2 ",
+                "https://www.udemy.com/course/spring-hibernate-tutorial/ ",
+                "https://www.coursera.org/learn/web-development-with-java-spring-framework "
+            ],
+            tips: [
+                "https://medium.com/priceline-labs/10-tips-for-working-with-core-spring-framework-22a7a1bb4d94 ",
+                "https://www.toptal.com/spring/top-10-most-common-spring-framework-mistakes ",
+                "https://sites.google.com/site/sureshdevang/spring-tips-tricks ",
+                "https://www.viralpatel.net/category/spring/ ",
+                "https://spring.io/blog/2020/04/23/spring-tips-configuration ",
+                
+            ],
+            github: [
+                "https://github.com/spring-projects/spring-framework ",
+                "https://github.com/spring-projects/spring-boot ",
+                "https://github.com/spring-projects/spring-framework ",
+                "https://github.com/spring-projects/spring-integration-extensions ",
+                "https://github.com/spring-projects/spring-amqp ",
+                "https://github.com/spring-projects/spring-data-examples "
             ]
         }
     },

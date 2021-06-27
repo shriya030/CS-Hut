@@ -21,7 +21,7 @@ function Footer() {
 				<p class="footer-links">
 					<a class="link-1" href="#">Home</a>
        
-                    <a class="#" href="#">Resources</a>
+                    <a class="#" href="Tags">Resources</a>
       
 					<a href="#ab">About</a>
 

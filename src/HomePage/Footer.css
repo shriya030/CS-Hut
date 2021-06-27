@@ -91,4 +91,11 @@
   .footer-distributed .footer-left p.footer-links {
     line-height: 1.8;
   }
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+    padding-right: 30%;
+  }
+  .footer-right a{
+    margin: 0 auto 10px
+  }
 }

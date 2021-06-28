@@ -15,6 +15,7 @@ import Languages from "./Components/Tags/Languages";
 import { useState, useEffect } from "react";
 import PropagateLoader from "react-spinners/PropagateLoader";
 import databases from "./Data/Databases";
+import ErrorPage from "./Components/ErrorPage";
 
 console.log(languages);
 
@@ -86,6 +87,11 @@ function App() {
             <Route exact path="/databases" component={Databases} />
             <Route exact path="/contactus" component={ContactUs} />
             <Route exact path="/" component={Home}></Route>
+            <Route render={(props) => (
+              <div>
+                <ErrorPage />
+              </div>
+            )}></Route>
           </Switch>
           <ScrollToTop />
         </>

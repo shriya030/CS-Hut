@@ -1,0 +1,71 @@
+
+  .NotFoundImage{
+    height: 600px;
+    width: 700px;
+    margin-top: -100px;
+    
+  }
+  @media (max-width: 993px) {
+    .Container {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 760px) {
+    .Container {
+      max-width: 100%;
+      height: auto;
+      margin-top: 12%;
+    }
+  }
+  
+  @media (max-width: 993px) {
+    .NotFoundImage {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 760px) {
+    .NotFoundImage {
+      max-width: 90%;
+      height: auto;
+    }
+  }
+  
+  .ImgColumn {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+  }
+  
+  .NotFoundMessage {
+    padding-top:160px ;
+    color: white;
+    font-weight: lighter;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 160%;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  @media (max-width: 993px) {
+    .NotFoundMessage {
+      max-width: 100%;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 760px) {
+    .NotFoundMessage {
+      font-size: 1.2rem;
+      letter-spacing: 0.2rem;
+      text-align: center;
+    }
+  }
+
+  
+  

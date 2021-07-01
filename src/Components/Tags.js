@@ -1,13 +1,26 @@
 import React from "react";
 import "./Tags.css";
 import { Link } from "react-router-dom";
+import {motion} from 'framer-motion'
+
+  const variants = {
+   in:{
+     opacity:1,
+      x:0,
+   } ,
+   out:{
+     opacity:0,
+     x:"-100%"
+   }
+  }
 
 function Tags() {
   return (
     <div className="tags">
       <div className="headings">Tags</div>
       <div class="wrapper">
-<div class="card">
+<motion.div class="card" animate={{ rotate: 0,opacity:1 }}
+    transition={{ duration: 2 }} initial={{opacity:0,rotate: -90}} exit={{opacity:0}}>
 	<h3 class="card___title">PROGRAMMING LANGUAGES</h3>
 		<div class="card__content">
          <div class="card__text">C</div>
@@ -16,8 +29,8 @@ function Tags() {
          <div class="card__text">Python</div>
         </div>
 		<Link to="/languages"><button class="card-btn">Know More</button></Link>
-	</div>
-	<div class="card">
+	</motion.div>
+	<motion.div class="card">
 		<h3 class="card___title">FRAMEWORKS/LIBRARIES</h3>
         <div class="card__content">
          <div class="card__text">Angular JS</div>
@@ -25,15 +38,15 @@ function Tags() {
          <div class="card__text">Pygame</div> 
         </div>
          <Link to="/frameworks"><button class="card-btn">Know More</button></Link>
-	</div>
-	<div class="card">
+	</motion.div>
+	<motion.div class="card">
 		<h3 class="card___title">DATABASES</h3>
       <div class="card__content">
          <div class="card__text">SQL</div>
          <div class="card__text">MongoDB</div> 
         </div>
          <Link to="/databases"><button class="card-btn">Know More</button></Link>
-	</div>
+	</motion.div>
 </div>
     </div>
   );

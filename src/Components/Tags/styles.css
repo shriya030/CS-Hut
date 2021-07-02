@@ -16,7 +16,9 @@
   margin-top: -20vh;
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
-
+.lang{
+  height: 100%;
+}
 .lang .headings:hover {
   text-shadow: 2px 3px 10px var(--SkyBlue);
   transform: scale(1.5);

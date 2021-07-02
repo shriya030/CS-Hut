@@ -2,9 +2,10 @@ import React from "react";
 import databases from "../../Data/Databases";
 import "./styles.css";
 import { Link } from "react-router-dom";
-
+import {motion} from 'framer-motion'
 function Database() {
   return (
+    <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration:0.6}}>
     <div className="lang">
       <div className="headings">Databases</div>
       <div class="languages">
@@ -53,6 +54,7 @@ function Database() {
         ))}
       </div>
     </div>
+    </motion.div>
   );
 }
 

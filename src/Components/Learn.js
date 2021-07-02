@@ -28,10 +28,11 @@ const pageTransition2 ={
 function Learn(props) {
   console.log(props.content.courses);
   return (
+    <motion.div initial={{scaleY:0}} animate={{scaleY:1}} transition={{duration:0.5}} >
     <div  className="learn" >
       <div classNameName="headings">{props.name}</div>
       <div className="container">
-        <motion.div exit='out' animate="in" initial="out" variants={pageTransition} className="card">
+        <motion.div exit='out' animate="in" initial="out" transition={{delay:0.5}} variants={pageTransition} className="card">
           <h3 className="title">Youtube</h3>
           <div className="bar">
             <div className="emptybar"></div>
@@ -51,7 +52,7 @@ function Learn(props) {
             ))}
           </ul>
         </motion.div>
-        <motion.div exit='out' animate="in" initial="out" variants={pageTransition} className="card">
+        <motion.div exit='out' animate="in" initial="out" variants={pageTransition} transition={{delay:0.5}} className="card">
           <h3 className="title">Websites</h3>
           <div className="bar">
             <div className="emptybar"></div>
@@ -91,7 +92,7 @@ function Learn(props) {
             ))}
           </ul>
         </div>
-        <motion.div className="card" variants={pageTransition2} initial="out" animate="in" exit="out" >
+        <motion.div className="card" variants={pageTransition2} initial="out" transition={{delay:0.5}} animate="in" exit="out" >
           <h3 className="title">Tips/Tricks</h3>
           <div className="bar">
             <div className="emptybar"></div>
@@ -111,7 +112,7 @@ function Learn(props) {
             ))}
           </ul>
         </motion.div>
-        <motion.div className="card"  variants={pageTransition2} initial="out" animate="in" exit="out">
+        <motion.div className="card"  variants={pageTransition2} initial="out" transition={{delay:0.5}} animate="in" exit="out">
           <h3 className="title">Github</h3>
           <div className="bar">
             <div className="emptybar"></div>
@@ -133,6 +134,7 @@ function Learn(props) {
         </motion.div>
       </div>
     </div>
+    </motion.div>
   );
 }
 

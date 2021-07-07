@@ -219,6 +219,190 @@ let languages = [{
             ]
         }
     },
+    {
+        title: "HTML",
+        path: "/languages/html",
+        image: "https://c4.wallpaperflare.com/wallpaper/887/817/276/html-5-html-5-logo-wallpaper-preview.jpg",
+        documentation: "https://developer.mozilla.org/en-US/docs/Web/Html",
+        content: {
+            youtube: [
+                "https://www.youtube.com/watch?v=BsDoLVMnmZs",
+                "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+                "https://www.youtube.com/watch?v=QXPWs00RD3A",
+                "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+                "https://www.youtube.com/watch?v=DmRjKZJ4c7g",
+                "https://www.youtube.com/watch?v=-G7bJVAIiEI"
+
+            ],
+            websites: [
+                "https://developer.mozilla.org/en-US/docs/Web/Html",
+                "https://www.w3schools.com/html/",
+                "https://www.geeksforgeeks.org/html-tutorial/",
+                "https://www.javatpoint.com/html-tutorial",
+                "https://www.learn-html.org/",
+                "https://www.codecademy.com/learn/learn-html"
+            ],
+            courses: [
+                "https://www.coursera.org/learn/html-css-javascript-for-web-developers",
+                "https://www.coursera.org/learn/html",
+                "https://www.coursera.org/projects/html-css-single-page",
+                "https://www.udemy.com/course/hmtl5-training/",
+                "https://www.udemy.com/course/web-development-learn-by-doing-html5-css3-from-scratch-introductory/",
+                "https://www.codecademy.com/learn/learn-html"
+            ],
+            tips: [
+                "https://hacks.mozilla.org/2016/08/a-few-html-tips/",
+                "https://html.com/blog/",
+                "https://blogclarity.com/5-html-tips-every-blogger-should-know/",
+                "https://neilpatel.com/blog/essential-html-tags/",
+                "https://designyourownblog.com/html-and-css-design-bloggers-guide/"
+            ],
+            github: [
+                "https://github.com/whatwg/html",
+                "https://github.com/h5bp/html5-boilerplate",
+                "https://github.com/w3c/html",
+                "https://github.com/niklasvh/html2canvas"
+            ]
+        }
+    },
+    {
+        title: "CSS",
+        path: "/languages/css",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7V8NwiMLHK77hAeQ6XX2jrLlS4ptjoInMyPKXICYzmrIqIbHOykKuhSdfVYCSUWhrLd8&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7V8NwiMLHK77hAeQ6XX2jrLlS4ptjoInMyPKXICYzmrIqIbHOykKuhSdfVYCSUWhrLd8&usqp=CAU",
+        documentation: "https://developer.mozilla.org/en-US/docs/Web/Css",
+        content: {
+            youtube: [
+                "https://www.youtube.com/watch?v=Edsxf_NBFrw&t=29139s",
+                "https://www.youtube.com/watch?v=WyxzAU3p8CE",
+                "https://www.youtube.com/watch?v=-G7bJVAIiEI&t=55s",
+                "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
+                "https://www.youtube.com/watch?v=hkQv0NIxKQY",
+                "https://www.youtube.com/watch?v=CxC925yUxSI"
+
+            ],
+            websites: [
+                "https://developer.mozilla.org/en-US/docs/Web/Css",
+                "https://www.w3schools.com/css/",
+                "https://www.geeksforgeeks.org/css-tutorial/",
+                "https://www.javatpoint.com/css-tutorial",
+                "https://www.learn-css.org/",
+                "https://www.codecademy.com/learn/learn-css"
+            ],
+            courses: [
+                "https://www.coursera.org/learn/introcss",
+                "https://www.coursera.org/specializations/web-design",
+                "https://www.coursera.org/specializations/website-development",
+                "https://www.coursera.org/learn/responsivedesign",
+                "https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/",
+                "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+            ],
+            tips: [
+                "https://css-tricks.com/beginner-css-tips-for-your-blog/",
+                "https://css-tricks.com/",
+                "https://bloggingfordevs.com/css-blogs/",
+                "https://www.creativebloq.com/features/css-tricks-to-revolutionise-your-layouts",
+                "https://www.webfx.com/blog/web-design/100-exceedingly-useful-css-tips-and-tricks/"
+            ],
+            github: [
+                "https://github.com/topics/css",
+                "https://github.com/primer/css",
+                "https://github.com/animate-css/animate.css",
+                "https://github.com/airbnb/css"
+            ]
+        }
+    },
+    {
+        title: "C#",
+        path: "/languages/c#",
+        image: "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/131633729/original/7dd1af11d0c947b49b002eee795f24b3403cc0e6/code-in-c-sharp-for-your-project.png",
+        documentation: "https://docs.microsoft.com/en-us/dotnet/csharp/",
+        content: {
+            youtube: [
+                "https://www.youtube.com/watch?v=SuLiu5AK9Ps",
+                "https://www.youtube.com/watch?v=GhQdlIFylQ8",
+                "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+                "https://www.youtube.com/watch?v=IFayQioG71A",
+                "https://www.youtube.com/watch?v=wLg-XdAmrak",
+                "https://www.youtube.com/watch?v=zfz49gjnjcY"
+
+            ],
+            websites: [
+                "https://www.tutorialspoint.com/csharp/index.htm",
+                "https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/?redirectedfrom=MSDN",
+                "https://dotnet.microsoft.com/apps/aspnet",
+                "https://stackify.com/learn-c-sharp-tutorials/",
+                "https://csharp-station.com/",
+                "https://csharp-station.com/ExternLinks/CSharpSites"
+            ],
+            courses: [
+                "https://www.coursera.org/learn/introduction-programming-unity",
+                "https://www.coursera.org/projects/programming-in-c",
+                "https://www.udemy.com/course/basics-of-object-oriented-programming-with-csharp/",
+                "https://www.udemy.com/course/understandingc/",
+                "https://www.udemy.com/course/programming-fundamentals-the-basics-with-c-for-beginners/",
+                "https://www.udemy.com/course/c-sharp-programming/"
+            ],
+            tips: [
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4653641&q=site:https%3A%2F%2Fwww.c-sharpcorner.com%2Frss%2Farticles%2Fcsharp-programming-articles",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4652200&q=site:http%3A%2F%2Fcsharphelper.com%2Fblog%2Ffeed%2F",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=5272512&q=site:https%3A%2F%2Fwww.csharpnet.co.in%2Ffeed%2F",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4651769&q=site:http%3A%2F%2Fwww.thebestcsharpprogrammerintheworld.com%2Ffeed%2F",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=5024536&q=site:https%3A%2F%2Fchristianfindlay.com%2Ffeed%2F"
+            ],
+            github: [
+                "https://github.com/grpc/grpc",
+                "https://github.com/shadowsocks/shadowsocks-windows",
+                "https://github.com/nothings/stb",
+                "https://github.com/GavinYellow/SharpSCADA"
+            ]
+        }
+    },
+    {
+        title: "SQL",
+        path: "/languages/sql",
+        image: "https://cdn1.vectorstock.com/i/thumb-large/77/55/sql-database-icon-logo-design-ui-or-ux-app-vector-17507755.jpg",
+        documentation: "https://dev.mysql.com/doc/",
+        content: {
+            youtube: [
+                "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+                "https://www.youtube.com/watch?v=1dWCqjhvF58",
+                "https://www.youtube.com/watch?v=5bFxbwjN-Gk",
+                "https://www.youtube.com/watch?v=BPHAr4QGGVE",
+                "https://www.youtube.com/watch?v=LGTbdjoEBVM",
+                "https://www.youtube.com/watch?v=zbMHLJ0dY4w"
+
+            ],
+            websites: [
+                "https://www.javatpoint.com/sql-tutorial#:~:text=SQL%20is%20a%20short%2Dform,in%20relational%20database%20management%20systems.",
+                "https://www.w3schools.com/sql/",
+                "https://www.w3schools.com/sql/sql_intro.asp",
+                "https://www.codecademy.com/learn/learn-sql",
+                "https://www.tutorialspoint.com/sql/index.htm",
+                "https://www.khanacademy.org/computing/computer-programming/sql"
+            ],
+            courses: [
+                "https://www.coursera.org/specializations/learn-sql-basics-data-science",
+                "https://www.coursera.org/learn/sql-for-data-science",
+                "https://www.coursera.org/learn/intro-sql",
+                "https://www.udemy.com/course/the-complete-sql-bootcamp/",
+                "https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+                "https://www.udemy.com/course/sql-mysql-for-data-analytics-and-business-intelligence/"
+            ],
+            tips: [
+                "https://news.google.com/search?gl=US&hl=en-US&q=sql&ceid=US:en",
+                "https://www.reddit.com/r/SQL/",
+                "https://docs.microsoft.com/en-in/archive/blogs/samlester/",
+                "https://docs.microsoft.com/en-in/archive/blogs/psssql/",
+                "https://docs.microsoft.com/en-in/archive/blogs/sqlreleaseservices/"
+            ],
+            github: [
+                "https://github.com/topics/sql",
+                "https://github.com/sqlmapproject/sqlmap",
+                "https://github.com/microsoft/sql-server-samples",
+                "https://github.com/donet5/SqlSugar"
+            ]
+        }
+    },
 ];
 
 export default languages;

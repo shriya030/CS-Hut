@@ -4,11 +4,11 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 
 function Tools() {
-    return(
-        <div className="lang">
+  return (
+    <div className="lang">
       <div className="headings">Tools</div>
       <div class="languages">
-        {tools.map(tool => (
+        {tools.map((tool) => (
           <div class="flip-card-container">
             <div class="flip-card">
               <div class="card-front">
@@ -18,7 +18,6 @@ function Tools() {
                   <figcaption>{tool.title}</figcaption>
                 </figure>
               </div>
-
               <div class="card-back">
                 <figure>
                   <div class="img-bg"></div>
@@ -31,7 +30,11 @@ function Tools() {
                     </Link>
                   </div>
                   <div style={{ marginLeft: "3vh" }}>
-                    <a href={tool.documentation} target="_blank" rel="noreferrer">
+                    <a
+                      href={tool.documentation}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <button>Documentation</button>
                     </a>
                   </div>
@@ -53,7 +56,7 @@ function Tools() {
         ))}
       </div>
     </div>
-    )
+  );
 }
 
 export default Tools;

@@ -1,10 +1,8 @@
-//https://www.onlinemarketingtools.pro/wp-content/uploads/2018/10/Sublime-Text-logo.png https://cdn.afterdawn.fi/v3/news/original/github-logo.png https://upload.wikimedia.org/wikipedia/commons/b/b3/Terminalicon2.png https://www.logolynx.com/images/logolynx/7f/7fb976a537620fed310872d533cd161c.png"
-
 let tools = [
   {
     title: "GitHub",
     path: "/tools/github",
-    image: "../src/Assets/Logos/Tools/github.jpg",
+    image: "../Assets/Logos/Tools/github.jpg",
     documentation: "https://docs.github.com/en/github",
     content: {
       youtube: [
@@ -37,8 +35,7 @@ let tools = [
   {
     title: "VS Code",
     path: "/tools/vs-code",
-    image:
-      "https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png",
+    image: "../Assets/Logos/Tools/vscode.jpg",
     documentation: "https://code.visualstudio.com/Docs",
     content: {
       youtube: [
@@ -71,7 +68,7 @@ let tools = [
   {
     title: "Sublime Text",
     path: "/tools/sublime-text",
-    image: "./src/Assets/Logos/Tools/sublime.jpg",
+    image: "../Assets/Logos/Tools/sublime.jpg",
     documentation: "http://www.sublimetext.com/docs/",
     content: {
       youtube: [
@@ -94,7 +91,7 @@ let tools = [
   {
     title: "NPM",
     path: "/tools/npm",
-    image: "./Assets/Logos/Tools/npm.jpeg",
+    image: "../Assets/Logos/Tools/npm.jpeg",
     documentation: "https://docs.npmjs.com/",
     content: {
       youtube: [
@@ -120,7 +117,7 @@ let tools = [
   {
     title: "Terminal",
     path: "/tools/terminal",
-    image: "./Assets/Logos/Tools/terminal.jpg",
+    image: "../Assets/Logos/Tools/terminal.jpg",
     documentation: "https://help.ubuntu.com/",
     content: {
       youtube: [
@@ -150,3 +147,5 @@ let tools = [
   },
 ];
 export default tools;
+
+//https://www.onlinemarketingtools.pro/wp-content/uploads/2018/10/Sublime-Text-logo.png https://cdn.afterdawn.fi/v3/news/original/github-logo.png https://upload.wikimedia.org/wikipedia/commons/b/b3/Terminalicon2.png https://www.logolynx.com/images/logolynx/7f/7fb976a537620fed310872d533cd161c.png"

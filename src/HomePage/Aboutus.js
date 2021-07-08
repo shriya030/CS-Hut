@@ -1,10 +1,15 @@
 import React from "react";
 import "./Aboutus.css";
+import Banner from "./Banner";
+import Footer from "./Footer";
 import weblogo from "./Images/logo.png";
 
 function Aboutus() {
   return (
+    
       <div id="ab">
+        {/*About us Header */}
+        <Banner />
     <div className="aboutus">
       <h1>About us</h1>
       <br className="line" />
@@ -28,6 +33,8 @@ function Aboutus() {
         </div>
       </div>
     </div>
+    {/*About us Footer */}
+    <Footer />
       </div>
   );
 }

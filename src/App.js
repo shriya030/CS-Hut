@@ -17,6 +17,10 @@ import ErrorPage from "./Components/ErrorPage";
 import { AnimatePresence } from "framer-motion";
 import React from "react";
 
+//Import About us
+
+import Aboutus from './HomePage/Aboutus'
+
 console.log(languages);
 
 function App() {
@@ -82,6 +86,8 @@ function App() {
             <Route exact path="/softwares" component={Softwares} />
             <Route exact path="/databases" component={Databases} />
             <Route exact path="/contactus" component={ContactUs} />
+            <Route exact path="/aboutus" component={Aboutus} />
+            
             <Route exact path="/" component={Home}></Route>
             <Route
               render={props => (

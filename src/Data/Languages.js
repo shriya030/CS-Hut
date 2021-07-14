@@ -220,52 +220,6 @@ let languages = [{
         }
     },
     {
-        title: "HTML",
-        path: "/languages/html",
-        image: "https://c4.wallpaperflare.com/wallpaper/887/817/276/html-5-html-5-logo-wallpaper-preview.jpg",
-        documentation: "https://developer.mozilla.org/en-US/docs/Web/Html",
-        content: {
-            youtube: [
-                "https://www.youtube.com/watch?v=BsDoLVMnmZs",
-                "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-                "https://www.youtube.com/watch?v=QXPWs00RD3A",
-                "https://www.youtube.com/watch?v=pQN-pnXPaVg",
-                "https://www.youtube.com/watch?v=DmRjKZJ4c7g",
-                "https://www.youtube.com/watch?v=-G7bJVAIiEI"
-
-            ],
-            websites: [
-                "https://developer.mozilla.org/en-US/docs/Web/Html",
-                "https://www.w3schools.com/html/",
-                "https://www.geeksforgeeks.org/html-tutorial/",
-                "https://www.javatpoint.com/html-tutorial",
-                "https://www.learn-html.org/",
-                "https://www.codecademy.com/learn/learn-html"
-            ],
-            courses: [
-                "https://www.coursera.org/learn/html-css-javascript-for-web-developers",
-                "https://www.coursera.org/learn/html",
-                "https://www.coursera.org/projects/html-css-single-page",
-                "https://www.udemy.com/course/hmtl5-training/",
-                "https://www.udemy.com/course/web-development-learn-by-doing-html5-css3-from-scratch-introductory/",
-                "https://www.codecademy.com/learn/learn-html"
-            ],
-            tips: [
-                "https://hacks.mozilla.org/2016/08/a-few-html-tips/",
-                "https://html.com/blog/",
-                "https://blogclarity.com/5-html-tips-every-blogger-should-know/",
-                "https://neilpatel.com/blog/essential-html-tags/",
-                "https://designyourownblog.com/html-and-css-design-bloggers-guide/"
-            ],
-            github: [
-                "https://github.com/whatwg/html",
-                "https://github.com/h5bp/html5-boilerplate",
-                "https://github.com/w3c/html",
-                "https://github.com/niklasvh/html2canvas"
-            ]
-        }
-    },
-    {
         title: "CSS",
         path: "/languages/css",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7V8NwiMLHK77hAeQ6XX2jrLlS4ptjoInMyPKXICYzmrIqIbHOykKuhSdfVYCSUWhrLd8&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7V8NwiMLHK77hAeQ6XX2jrLlS4ptjoInMyPKXICYzmrIqIbHOykKuhSdfVYCSUWhrLd8&usqp=CAU",
@@ -354,6 +308,52 @@ let languages = [{
                 "https://github.com/shadowsocks/shadowsocks-windows",
                 "https://github.com/nothings/stb",
                 "https://github.com/GavinYellow/SharpSCADA"
+            ]
+        }
+    },
+    {
+        title: "HTML",
+        path: "/languages/html",
+        image: "https://c4.wallpaperflare.com/wallpaper/887/817/276/html-5-html-5-logo-wallpaper-preview.jpg",
+        documentation: "https://developer.mozilla.org/en-US/docs/Web/Html",
+        content: {
+            youtube: [
+                "https://www.youtube.com/watch?v=BsDoLVMnmZs",
+                "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+                "https://www.youtube.com/watch?v=QXPWs00RD3A",
+                "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+                "https://www.youtube.com/watch?v=DmRjKZJ4c7g",
+                "https://www.youtube.com/watch?v=-G7bJVAIiEI"
+
+            ],
+            websites: [
+                "https://developer.mozilla.org/en-US/docs/Web/Html",
+                "https://www.w3schools.com/html/",
+                "https://www.geeksforgeeks.org/html-tutorial/",
+                "https://www.javatpoint.com/html-tutorial",
+                "https://www.learn-html.org/",
+                "https://www.codecademy.com/learn/learn-html"
+            ],
+            courses: [
+                "https://www.coursera.org/learn/html-css-javascript-for-web-developers",
+                "https://www.coursera.org/learn/html",
+                "https://www.coursera.org/projects/html-css-single-page",
+                "https://www.udemy.com/course/hmtl5-training/",
+                "https://www.udemy.com/course/web-development-learn-by-doing-html5-css3-from-scratch-introductory/",
+                "https://www.codecademy.com/learn/learn-html"
+            ],
+            tips: [
+                "https://hacks.mozilla.org/2016/08/a-few-html-tips/",
+                "https://html.com/blog/",
+                "https://blogclarity.com/5-html-tips-every-blogger-should-know/",
+                "https://neilpatel.com/blog/essential-html-tags/",
+                "https://designyourownblog.com/html-and-css-design-bloggers-guide/"
+            ],
+            github: [
+                "https://github.com/whatwg/html",
+                "https://github.com/h5bp/html5-boilerplate",
+                "https://github.com/w3c/html",
+                "https://github.com/niklasvh/html2canvas"
             ]
         }
     },

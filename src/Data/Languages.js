@@ -357,52 +357,6 @@ let languages = [{
             ]
         }
     },
-    {
-        title: "SQL",
-        path: "/languages/sql",
-        image: "https://cdn1.vectorstock.com/i/thumb-large/77/55/sql-database-icon-logo-design-ui-or-ux-app-vector-17507755.jpg",
-        documentation: "https://dev.mysql.com/doc/",
-        content: {
-            youtube: [
-                "https://www.youtube.com/watch?v=HXV3zeQKqGY",
-                "https://www.youtube.com/watch?v=1dWCqjhvF58",
-                "https://www.youtube.com/watch?v=5bFxbwjN-Gk",
-                "https://www.youtube.com/watch?v=BPHAr4QGGVE",
-                "https://www.youtube.com/watch?v=LGTbdjoEBVM",
-                "https://www.youtube.com/watch?v=zbMHLJ0dY4w"
-
-            ],
-            websites: [
-                "https://www.javatpoint.com/sql-tutorial#:~:text=SQL%20is%20a%20short%2Dform,in%20relational%20database%20management%20systems.",
-                "https://www.w3schools.com/sql/",
-                "https://www.w3schools.com/sql/sql_intro.asp",
-                "https://www.codecademy.com/learn/learn-sql",
-                "https://www.tutorialspoint.com/sql/index.htm",
-                "https://www.khanacademy.org/computing/computer-programming/sql"
-            ],
-            courses: [
-                "https://www.coursera.org/specializations/learn-sql-basics-data-science",
-                "https://www.coursera.org/learn/sql-for-data-science",
-                "https://www.coursera.org/learn/intro-sql",
-                "https://www.udemy.com/course/the-complete-sql-bootcamp/",
-                "https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
-                "https://www.udemy.com/course/sql-mysql-for-data-analytics-and-business-intelligence/"
-            ],
-            tips: [
-                "https://news.google.com/search?gl=US&hl=en-US&q=sql&ceid=US:en",
-                "https://www.reddit.com/r/SQL/",
-                "https://docs.microsoft.com/en-in/archive/blogs/samlester/",
-                "https://docs.microsoft.com/en-in/archive/blogs/psssql/",
-                "https://docs.microsoft.com/en-in/archive/blogs/sqlreleaseservices/"
-            ],
-            github: [
-                "https://github.com/topics/sql",
-                "https://github.com/sqlmapproject/sqlmap",
-                "https://github.com/microsoft/sql-server-samples",
-                "https://github.com/donet5/SqlSugar"
-            ]
-        }
-    },
 ];
 
 export default languages;

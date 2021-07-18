@@ -1,13 +1,27 @@
 import React from "react";
 import "./Tags.css";
 import { Link } from "react-router-dom";
+import {motion} from 'framer-motion'
+import { duration } from "@material-ui/core";
+
+  const variants = {
+   in:{
+     scaleX:1,
+
+   } ,
+   out:{
+     scaleX:0
+   }
+  }
 
 function Tags() {
   return (
+    <motion.div variants={variants} initial="out" animate="in" exit="out" transition={{duration:0.5}}>
     <div className="tags">
       <div className="headings">Tags</div>
       <div class="wrapper">
-<div class="card">
+<div class="card" animate={{ rotate: 0,opacity:1 }}
+    transition={{ duration: 2 }} initial={{opacity:0,rotate: -90}} exit={{opacity:0}}>
 	<h3 class="card___title">PROGRAMMING LANGUAGES</h3>
 		<div class="card__content">
          <div class="card__text">C</div>
@@ -36,6 +50,7 @@ function Tags() {
 	</div>
 </div>
     </div>
+    </motion.div>
   );
 }
 

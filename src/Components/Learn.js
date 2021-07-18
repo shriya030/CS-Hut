@@ -2,18 +2,41 @@ import React from "react";
 import "./Learn.css";
 import { FaYoutube, FaLightbulb, FaBookOpen, FaGithub } from "react-icons/fa";
 import { MdBookmark } from "react-icons/md";
-
+import {motion} from 'framer-motion'
+const pageTransition ={
+  in:{
+      opacity:1,
+        x:0
+  },
+  out:{
+      opacity:0,
+       x:"-100%"
+      
+  }
+}
+const pageTransition2 ={
+  in:{
+      opacity:1,
+        x:0
+  },
+  out:{
+      opacity:0,
+       x:"100%"
+      
+  }
+}
 function Learn(props) {
   console.log(props.content.courses);
   return (
-    <div className="learn">
-      <div className="headings">{props.name}</div>
-      <div class="container">
-        <div class="card">
-          <h3 class="title">Youtube</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
+    <motion.div initial={{scaleY:0}} animate={{scaleY:1}} transition={{duration:0.5}} >
+    <div  className="learn" >
+      <div classNameName="headings">{props.name}</div>
+      <div className="container">
+        <motion.div exit='out' animate="in" initial="out" transition={{delay:0.5}} variants={pageTransition} className="card">
+          <h3 className="title">Youtube</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
           </div>
           <ul>
             {props.content.youtube.map((link, i) => (
@@ -28,12 +51,12 @@ function Learn(props) {
               </li>
             ))}
           </ul>
-        </div>
-        <div class="card">
-          <h3 class="title">Websites</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
+        </motion.div>
+        <motion.div exit='out' animate="in" initial="out" variants={pageTransition} transition={{delay:0.5}} className="card">
+          <h3 className="title">Websites</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
           </div>
           <ul>
             {props.content.websites.map((link, i) => (
@@ -48,12 +71,12 @@ function Learn(props) {
               </li>
             ))}
           </ul>
-        </div>
-        <div class="card">
-          <h3 class="title">Courses</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
+        </motion.div>
+        <div className="card">
+          <h3 className="title">Courses</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
           </div>
           <ul>
             {props.content.courses.map((link, i) => (
@@ -69,11 +92,11 @@ function Learn(props) {
             ))}
           </ul>
         </div>
-        <div class="card">
-          <h3 class="title">Tips/Tricks</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
+        <motion.div className="card" variants={pageTransition2} initial="out" transition={{delay:0.5}} animate="in" exit="out" >
+          <h3 className="title">Tips/Tricks</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
           </div>
           <ul>
             {props.content.tips.map((link, i) => (
@@ -88,12 +111,12 @@ function Learn(props) {
               </li>
             ))}
           </ul>
-        </div>
-        <div class="card">
-          <h3 class="title">Github</h3>
-          <div class="bar">
-            <div class="emptybar"></div>
-            <div class="filledbar"></div>
+        </motion.div>
+        <motion.div className="card"  variants={pageTransition2} initial="out" transition={{delay:0.5}} animate="in" exit="out">
+          <h3 className="title">Github</h3>
+          <div className="bar">
+            <div className="emptybar"></div>
+            <div className="filledbar"></div>
           </div>
           <ul>
             {props.content.github.map((link, i) => (
@@ -108,29 +131,30 @@ function Learn(props) {
               </li>
             ))}
           </ul>
-        </div>
+        </motion.div>
       </div>
     </div>
+    </motion.div>
   );
 }
 
 export default Learn;
 
 {
-  /* <div class="new">
-  <div className="headings">{props.name}</div>
-  <div class="box">
+  /* <div className="new">
+  <div classNameName="headings">{props.name}</div>
+  <div className="box">
     {props.resources.map(resource => (
-      <div class="card">
-        <div class="imgBx">
+      <div className="card">
+        <div className="imgBx">
           {console.log("*********" + props.name)}
           <a href={resource.link}>
             <img src={resource.image} alt="images" />
           </a>
         </div>
-        <div class="details">
+        <div className="details">
           <h2>{resource.name}</h2>
-          <a className="harry" href={resource.image}>
+          <a classNameName="harry" href={resource.image}>
             {resource.title}
           </a>
         </div>

@@ -14,7 +14,11 @@
 .about-content p {
   text-align: center;
   color: white;
-  padding: 20px;
+  padding-top: 20px;
+  float: right;
+  text-align: justify;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .about {

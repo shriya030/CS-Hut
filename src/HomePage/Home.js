@@ -25,11 +25,11 @@ if(loading){
 }
       return(
       //Display Content after preloader
-      <div>
+  <>
     <Banner />
     <Aboutus />
     <Footer />
-  </div>
+  </>
   )
 }
 

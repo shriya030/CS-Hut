@@ -1,10 +1,10 @@
 import React from "react";
-import {Link} from 'react-router-dom' 
+import {Link} from 'react-router-dom' ;
 import "./Footer.css";
 function Footer() {
   const currentyear = new Date().getFullYear();
   return (
-    <div>
+    
         <footer class="footer-distributed">
 
 			<div class="footer-right">
@@ -27,14 +27,13 @@ function Footer() {
 
 					<a href="/contactus">Contact</a>
 				</p>
-
-				<p>CsHut &copy; {currentyear}</p>
+                <p id="effort">Efforts By Shriya</p>
+				
               <div class="footer-end">
-                <p>Efforts By Shriya</p>
+			  <p>CsHut &copy; {currentyear}</p>
                </div>
 			</div>
 		</footer>
-      </div>
   );
 }
 

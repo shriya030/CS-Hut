@@ -40,54 +40,52 @@ let languages = [{
         }
     },
     {
-        title: "Python",
-        path: "/languages/python",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png",
-        documentation: "https://docs.python.org/3/",
+        title: "C#",
+        path: "/languages/c#",
+        image: "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/131633729/original/7dd1af11d0c947b49b002eee795f24b3403cc0e6/code-in-c-sharp-for-your-project.png",
+        documentation: "https://docs.microsoft.com/en-us/dotnet/csharp/",
         content: {
             youtube: [
-                "https://www.youtube.com/watch?v=_uQrJ0TkZlc ",
-                "https://www.youtube.com/watch?v=rfscVS0vtbw",
-                "https://www.youtube.com/watch?v=WGJJIrtnfpk",
-                "https://www.youtube.com/watch?v=4F2m91eKmts",
-                "https://www.youtube.com/watch?v=t8pPdKYpowI",
-                "https://www.youtube.com/watch?v=woVJ4N5nl_s"
+                "https://www.youtube.com/watch?v=SuLiu5AK9Ps",
+                "https://www.youtube.com/watch?v=GhQdlIFylQ8",
+                "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+                "https://www.youtube.com/watch?v=IFayQioG71A",
+                "https://www.youtube.com/watch?v=wLg-XdAmrak",
+                "https://www.youtube.com/watch?v=zfz49gjnjcY"
+
             ],
             websites: [
-                "https://www.geeksforgeeks.org/python-programming-language/",
-                "https://www.tutorialspoint.com/python/index.htm",
-                "https://www.upgrad.com/blog/python-projects-ideas-topics-beginners/",
-                "https://www.programiz.com/python-programming",
-                "https://data-flair.training/blogs/python-project-ideas/",
-                "https://intellipaat.com/blog/python-project-ideas-for-beginners/"
+                "https://www.tutorialspoint.com/csharp/index.htm",
+                "https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/?redirectedfrom=MSDN",
+                "https://dotnet.microsoft.com/apps/aspnet",
+                "https://stackify.com/learn-c-sharp-tutorials/",
+                "https://csharp-station.com/",
+                "https://csharp-station.com/ExternLinks/CSharpSites"
             ],
             courses: [
-                "https://www.udemy.com/share/101W8Q/",
-                "https://developers.google.com/edu/python/",
-                "https://www.codecademy.com/catalog/language/python",
-                "https://www.coursera.org/specializations/python",
-                "https://www.pepcoding.com/resources/python-and-machine-learning",
-                "https://www.geeksforgeeks.org/free-python-course-for-beginners/"
+                "https://www.coursera.org/learn/introduction-programming-unity",
+                "https://www.coursera.org/projects/programming-in-c",
+                "https://www.udemy.com/course/basics-of-object-oriented-programming-with-csharp/",
+                "https://www.udemy.com/course/understandingc/",
+                "https://www.udemy.com/course/programming-fundamentals-the-basics-with-c-for-beginners/",
+                "https://www.udemy.com/course/c-sharp-programming/"
             ],
-
-      tips: [
-        "https://medium.com/star-gazers/10-python-tips-and-tricks-that-make-your-code-better-f8f78d335bae",
-	    	"https://medium.com/pythonland/30-python-language-tricks-that-will-make-you-a-better-coder-f08f811a7b0f",
-	    	"https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865",
-	    	"https://realpython.com/python-beginner-tips/",
-	    	"https://www.geeksforgeeks.org/optimization-tips-python-code/",
-	    	"https://www.programming-hero.com/blog/20-python-tips-and-tricks-for-new-python-developers.html"
-      ],
-      github: [
-        "https://github.com/codingforentrepreneurs/30-Days-of-Python",
-	    	"https://github.com/CodementorIO/Python-Learning-Resources",
-	    	"https://github.com/qiwsir/StarterLearningPython",
-	    	"https://github.com/jerry-git/learn-python3",
-	    	"https://github.com/trekhleb/learn-python",
-	    	"https://github.com/coodict/python3-in-one-pic"
-      ]
-    }
-  },
+            tips: [
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4653641&q=site:https%3A%2F%2Fwww.c-sharpcorner.com%2Frss%2Farticles%2Fcsharp-programming-articles",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4652200&q=site:http%3A%2F%2Fcsharphelper.com%2Fblog%2Ffeed%2F",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=5272512&q=site:https%3A%2F%2Fwww.csharpnet.co.in%2Ffeed%2F",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4651769&q=site:http%3A%2F%2Fwww.thebestcsharpprogrammerintheworld.com%2Ffeed%2F",
+                "https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=5024536&q=site:https%3A%2F%2Fchristianfindlay.com%2Ffeed%2F"
+            ],
+            github: [
+                "https://github.com/grpc/grpc",
+                "https://github.com/shadowsocks/shadowsocks-windows",
+                "https://github.com/nothings/stb",
+                "https://github.com/GavinYellow/SharpSCADA"
+            ]
+        }
+    },
+   
   {
     title: "C",
     path: "/languages/c",
@@ -130,6 +128,98 @@ let languages = [{
       ]
     }
   },
+  {
+    title: "CSS",
+    path: "/languages/css",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7V8NwiMLHK77hAeQ6XX2jrLlS4ptjoInMyPKXICYzmrIqIbHOykKuhSdfVYCSUWhrLd8&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7V8NwiMLHK77hAeQ6XX2jrLlS4ptjoInMyPKXICYzmrIqIbHOykKuhSdfVYCSUWhrLd8&usqp=CAU",
+    documentation: "https://developer.mozilla.org/en-US/docs/Web/Css",
+    content: {
+        youtube: [
+            "https://www.youtube.com/watch?v=Edsxf_NBFrw&t=29139s",
+            "https://www.youtube.com/watch?v=WyxzAU3p8CE",
+            "https://www.youtube.com/watch?v=-G7bJVAIiEI&t=55s",
+            "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
+            "https://www.youtube.com/watch?v=hkQv0NIxKQY",
+            "https://www.youtube.com/watch?v=CxC925yUxSI"
+
+        ],
+        websites: [
+            "https://developer.mozilla.org/en-US/docs/Web/Css",
+            "https://www.w3schools.com/css/",
+            "https://www.geeksforgeeks.org/css-tutorial/",
+            "https://www.javatpoint.com/css-tutorial",
+            "https://www.learn-css.org/",
+            "https://www.codecademy.com/learn/learn-css"
+        ],
+        courses: [
+            "https://www.coursera.org/learn/introcss",
+            "https://www.coursera.org/specializations/web-design",
+            "https://www.coursera.org/specializations/website-development",
+            "https://www.coursera.org/learn/responsivedesign",
+            "https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/",
+            "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+        ],
+        tips: [
+            "https://css-tricks.com/beginner-css-tips-for-your-blog/",
+            "https://css-tricks.com/",
+            "https://bloggingfordevs.com/css-blogs/",
+            "https://www.creativebloq.com/features/css-tricks-to-revolutionise-your-layouts",
+            "https://www.webfx.com/blog/web-design/100-exceedingly-useful-css-tips-and-tricks/"
+        ],
+        github: [
+            "https://github.com/topics/css",
+            "https://github.com/primer/css",
+            "https://github.com/animate-css/animate.css",
+            "https://github.com/airbnb/css"
+        ]
+    }
+},
+{
+    title: "HTML",
+    path: "/languages/html",
+    image: "https://c4.wallpaperflare.com/wallpaper/887/817/276/html-5-html-5-logo-wallpaper-preview.jpg",
+    documentation: "https://developer.mozilla.org/en-US/docs/Web/Html",
+    content: {
+        youtube: [
+            "https://www.youtube.com/watch?v=BsDoLVMnmZs",
+            "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+            "https://www.youtube.com/watch?v=QXPWs00RD3A",
+            "https://www.youtube.com/watch?v=pQN-pnXPaVg",
+            "https://www.youtube.com/watch?v=DmRjKZJ4c7g",
+            "https://www.youtube.com/watch?v=-G7bJVAIiEI"
+
+        ],
+        websites: [
+            "https://developer.mozilla.org/en-US/docs/Web/Html",
+            "https://www.w3schools.com/html/",
+            "https://www.geeksforgeeks.org/html-tutorial/",
+            "https://www.javatpoint.com/html-tutorial",
+            "https://www.learn-html.org/",
+            "https://www.codecademy.com/learn/learn-html"
+        ],
+        courses: [
+            "https://www.coursera.org/learn/html-css-javascript-for-web-developers",
+            "https://www.coursera.org/learn/html",
+            "https://www.coursera.org/projects/html-css-single-page",
+            "https://www.udemy.com/course/hmtl5-training/",
+            "https://www.udemy.com/course/web-development-learn-by-doing-html5-css3-from-scratch-introductory/",
+            "https://www.codecademy.com/learn/learn-html"
+        ],
+        tips: [
+            "https://hacks.mozilla.org/2016/08/a-few-html-tips/",
+            "https://html.com/blog/",
+            "https://blogclarity.com/5-html-tips-every-blogger-should-know/",
+            "https://neilpatel.com/blog/essential-html-tags/",
+            "https://designyourownblog.com/html-and-css-design-bloggers-guide/"
+        ],
+        github: [
+            "https://github.com/whatwg/html",
+            "https://github.com/h5bp/html5-boilerplate",
+            "https://github.com/w3c/html",
+            "https://github.com/niklasvh/html2canvas"
+        ]
+    }
+},
   {
     title: "Java",
     path: "/languages/java",
@@ -219,6 +309,57 @@ let languages = [{
             ]
         }
     },
+  
+    {
+        title: "Python",
+        path: "/languages/python",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png",
+        documentation: "https://docs.python.org/3/",
+        content: {
+            youtube: [
+                "https://www.youtube.com/watch?v=_uQrJ0TkZlc ",
+                "https://www.youtube.com/watch?v=rfscVS0vtbw",
+                "https://www.youtube.com/watch?v=WGJJIrtnfpk",
+                "https://www.youtube.com/watch?v=4F2m91eKmts",
+                "https://www.youtube.com/watch?v=t8pPdKYpowI",
+                "https://www.youtube.com/watch?v=woVJ4N5nl_s"
+            ],
+            websites: [
+                "https://www.geeksforgeeks.org/python-programming-language/",
+                "https://www.tutorialspoint.com/python/index.htm",
+                "https://www.upgrad.com/blog/python-projects-ideas-topics-beginners/",
+                "https://www.programiz.com/python-programming",
+                "https://data-flair.training/blogs/python-project-ideas/",
+                "https://intellipaat.com/blog/python-project-ideas-for-beginners/"
+            ],
+            courses: [
+                "https://www.udemy.com/share/101W8Q/",
+                "https://developers.google.com/edu/python/",
+                "https://www.codecademy.com/catalog/language/python",
+                "https://www.coursera.org/specializations/python",
+                "https://www.pepcoding.com/resources/python-and-machine-learning",
+                "https://www.geeksforgeeks.org/free-python-course-for-beginners/"
+            ],
+
+      tips: [
+        "https://medium.com/star-gazers/10-python-tips-and-tricks-that-make-your-code-better-f8f78d335bae",
+	    	"https://medium.com/pythonland/30-python-language-tricks-that-will-make-you-a-better-coder-f08f811a7b0f",
+	    	"https://medium.com/fintechexplained/top-python-tips-tricks-dd996b807865",
+	    	"https://realpython.com/python-beginner-tips/",
+	    	"https://www.geeksforgeeks.org/optimization-tips-python-code/",
+	    	"https://www.programming-hero.com/blog/20-python-tips-and-tricks-for-new-python-developers.html"
+      ],
+      github: [
+        "https://github.com/codingforentrepreneurs/30-Days-of-Python",
+	    	"https://github.com/CodementorIO/Python-Learning-Resources",
+	    	"https://github.com/qiwsir/StarterLearningPython",
+	    	"https://github.com/jerry-git/learn-python3",
+	    	"https://github.com/trekhleb/learn-python",
+	    	"https://github.com/coodict/python3-in-one-pic"
+      ]
+    }
+  },
+    
 ];
 
 export default languages;

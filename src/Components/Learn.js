@@ -3,135 +3,94 @@ import "./Learn.css";
 import { FaYoutube, FaLightbulb, FaBookOpen, FaGithub } from "react-icons/fa";
 import { MdBookmark } from "react-icons/md";
 import {motion} from 'framer-motion'
-const pageTransition ={
-  in:{
-      opacity:1,
-        x:0
-  },
-  out:{
-      opacity:0,
-       x:"-100%"
-      
-  }
-}
-const pageTransition2 ={
-  in:{
-      opacity:1,
-        x:0
-  },
-  out:{
-      opacity:0,
-       x:"100%"
-      
-  }
-}
+
 function Learn(props) {
   console.log(props.content.courses);
   return (
     <motion.div initial={{scaleY:0}} animate={{scaleY:1}} transition={{duration:0.5}} >
     <div  className="learn" >
-      <div classNameName="headings">{props.name}</div>
-      <div className="container">
-        <motion.div exit='out' animate="in" initial="out" transition={{delay:0.5}} variants={pageTransition} className="card">
-          <h3 className="title">Youtube</h3>
-          <div className="bar">
-            <div className="emptybar"></div>
-            <div className="filledbar"></div>
-          </div>
-          <ul>
+      <div className="headings">{props.name}</div>
+      <div className="course-container">
+        <div className="course-card">
+          <h3 className="course-title">Youtube</h3>
+          <ul className="course-list">
             {props.content.youtube.map((link, i) => (
-              <li>
-                <a style={{ color: "white" }} href={link} target="_blank" rel="noreferrer">
+              <li key={link} className="course-list-item">
+                <a style={{ color: "white" }} href={link} target="_blank" rel="noopener noreferrer">
                   <FaYoutube
                     size={20}
                     style={{ fill: "white", marginRight: "1vw" }}
                   />
-                  Watch
-                </a>
-              </li>
-            ))}
-          </ul>
-        </motion.div>
-        <motion.div exit='out' animate="in" initial="out" variants={pageTransition} transition={{delay:0.5}} className="card">
-          <h3 className="title">Websites</h3>
-          <div className="bar">
-            <div className="emptybar"></div>
-            <div className="filledbar"></div>
-          </div>
-          <ul>
-            {props.content.websites.map((link, i) => (
-              <li>
-                <a style={{ color: "white" }} href={link} target="_blank" rel="noreferrer">
-                  <MdBookmark
-                    size={20}
-                    style={{ fill: "white", marginRight: "1vw" }}
-                  />
-                  Open
-                </a>
-              </li>
-            ))}
-          </ul>
-        </motion.div>
-        <div className="card">
-          <h3 className="title">Courses</h3>
-          <div className="bar">
-            <div className="emptybar"></div>
-            <div className="filledbar"></div>
-          </div>
-          <ul>
-            {props.content.courses.map((link, i) => (
-              <li>
-                <a style={{ color: "white" }} href={link} target="_blank" rel="noreferrer">
-                  <FaBookOpen
-                    size={20}
-                    style={{ fill: "white", marginRight: "1vw" }}
-                  />
-                  Learn
+                  {link}
                 </a>
               </li>
             ))}
           </ul>
         </div>
-        <motion.div className="card" variants={pageTransition2} initial="out" transition={{delay:0.5}} animate="in" exit="out" >
-          <h3 className="title">Tips/Tricks</h3>
-          <div className="bar">
-            <div className="emptybar"></div>
-            <div className="filledbar"></div>
-          </div>
-          <ul>
+        <div className="course-card">
+          <h3 className="course-title">Websites</h3>
+          <ul className="course-list">
+            {props.content.websites.map((link, i) => (
+              <li key={link} className="course-list-item">
+                <a style={{ color: "white" }} href={link} target="_blank" rel="noopener noreferrer">
+                  <MdBookmark
+                    size={20}
+                    style={{ fill: "white", marginRight: "1vw" }}
+                  />
+                  {link}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="course-card">
+          <h3 className="course-title">Courses</h3>
+          <ul className="course-list">
+            {props.content.courses.map((link, i) => (
+              <li key={link} className="course-list-item">
+                <a style={{ color: "white" }} href={link} target="_blank" rel="noopener noreferrer">
+                  <FaBookOpen
+                    size={20}
+                    style={{ fill: "white", marginRight: "1vw" }}
+                  />
+                  {link}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="course-card">
+          <h3 className="course-title">Tips/Tricks</h3>
+          <ul className="course-list">
             {props.content.tips.map((link, i) => (
-              <li>
-                <a style={{ color: "white" }} href={link} target="_blank" rel="noreferrer">
+              <li key={link} className="course-list-item">
+                <a style={{ color: "white" }} href={link} target="_blank" rel="noopener noreferrer">
                   <FaLightbulb
                     size={20}
                     style={{ fill: "white", marginRight: "1vw" }}
                   />
-                  Tips
+                  {link}
                 </a>
               </li>
             ))}
           </ul>
-        </motion.div>
-        <motion.div className="card"  variants={pageTransition2} initial="out" transition={{delay:0.5}} animate="in" exit="out">
-          <h3 className="title">Github</h3>
-          <div className="bar">
-            <div className="emptybar"></div>
-            <div className="filledbar"></div>
-          </div>
-          <ul>
+        </div>
+        <div className="course-card">
+          <h3 className="course-title">Github</h3>
+          <ul className="course-list">
             {props.content.github.map((link, i) => (
-              <li>
-                <a style={{ color: "white" }} href={link} target="_blank" rel="noreferrer">
+              <li key={link} className="course-list-item">
+                <a style={{ color: "white" }} href={link} target="_blank" rel="noopener noreferrer">
                   <FaGithub
                     size={20}
                     style={{ fill: "white", marginRight: "1vw" }}
                   />
-                  Clone
+                  {link}
                 </a>
               </li>
             ))}
           </ul>
-        </motion.div>
+        </div>
       </div>
     </div>
     </motion.div>
@@ -140,7 +99,6 @@ function Learn(props) {
 
 export default Learn;
 
-{
   /* <div className="new">
   <div classNameName="headings">{props.name}</div>
   <div className="box">
@@ -162,4 +120,3 @@ export default Learn;
     ))}
   </div>
 </div>; */
-}

@@ -8,6 +8,15 @@
   padding-right: 45px !important;
 }
 
+.hash-link{
+  color: rgba(255,255,255,.5);
+}
+
+.hash-link:hover{
+  color: rgba(255,255,255,.5);
+  text-decoration: none;
+}
+
 .navbar-dark .navbar-nav .nav-link:hover {
   padding-right: 20px;
   color: var(--SkyBlue);

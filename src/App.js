@@ -108,7 +108,7 @@ function App() {
         </AnimatePresence>
         <ScrollToTop />
       </>
-      )
+      
     </div>
   );
 }

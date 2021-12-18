@@ -3,17 +3,17 @@
   font-size: 25px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav a.nav-link {
   color: white;
   padding-right: 45px !important;
 }
 
-.hash-link{
-  color: rgba(255,255,255,.5);
+.hash-link {
+  color: white;
 }
 
-.hash-link:hover{
-  color: rgba(255,255,255,.5);
+.hash-link:hover {
+  color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
 

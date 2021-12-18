@@ -20,24 +20,11 @@ import React from "react";
 console.log(languages);
 
 function App() {
-  /*useEffect(() => {
-    setloading(true);
-    setTimeout(() => {
-      setloading(false);
-    }, 2000);
-  }, []);*/
   const location = useLocation();
   return (
     <div className="App">
-      {/*DISPLAY  PRELOADER*/}
-      {/*<div className="MyLoader">
-          <PropagateLoader size={30} margin={1} color={"#66f0f1"} />
-        </div>*/}
-      {/*DISPLAY ORIGINAL CONTENT AFTER PRELOADER*/}
       <>
         <NavBar />
-        {/* <Alert variant='secondary'>This is a alert</Alert>
-      <Button>classic</Button> */}
         <AnimatePresence exitBeforeEnter>
           <Switch location={location} key={location.pathname}>
             {frameworks.map((framework, i) => (
@@ -94,7 +81,6 @@ function App() {
         </AnimatePresence>
         <ScrollToTop />
       </>
-      
     </div>
   );
 }

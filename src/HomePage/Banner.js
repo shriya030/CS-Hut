@@ -7,19 +7,6 @@ import { Link } from "react-router-dom";
 function Banner() {
   return (
     <div className="banner">
-      {/* <div className='banner-img'>
-            <div className="waveWrapper waveAnimation">
-  <div className="waveWrapperInner bgTop">
-    <div className="wave waveTop"></div>
-  </div>
-  <div className="waveWrapperInner bgMiddle">
-    <div className="wave waveMiddle"></div>
-  </div>
-  <div className="waveWrapperInner bgBottom">
-    <div className="wave waveBottom"></div>
-  </div>
-</div>
-            </div> */}
       <video
         autoPlay
         loop
@@ -44,7 +31,7 @@ function Banner() {
           {" "}
           <Typed
             strings={[
-               "Your Guide to learn and apply in-demand technologies, all under one HUT !!"
+              "Your Guide to learn and apply in-demand technologies, all under one HUT !!"
             ]}
             typeSpeed={40}
           ></Typed>{" "}

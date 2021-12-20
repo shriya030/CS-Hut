@@ -194,27 +194,3 @@ function Learn(props) {
 }
 
 export default Learn;
-
-{
-  /* <div className="new">
-  <div classNameName="headings">{props.name}</div>
-  <div className="box">
-    {props.resources.map(resource => (
-      <div className="card">
-        <div className="imgBx">
-          {console.log("*********" + props.name)}
-          <a href={resource.link}>
-            <img src={resource.image} alt="images" />
-          </a>
-        </div>
-        <div className="details">
-          <h2>{resource.name}</h2>
-          <a classNameName="harry" href={resource.image}>
-            {resource.title}
-          </a>
-        </div>
-      </div>
-    ))}
-  </div>
-</div>; */
-}

@@ -28,13 +28,12 @@ function Banner() {
       <div className="banner-heading">
         <h2>CS Hut</h2>
         <p>
-          {" "}
           <Typed
             strings={[
               "Your Guide to learn and apply in-demand technologies, all under one HUT !!"
             ]}
             typeSpeed={40}
-          ></Typed>{" "}
+          ></Typed>
         </p>
 
         <Link to="/tags">

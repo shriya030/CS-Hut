@@ -7,7 +7,7 @@ import { FaHome, FaInfoCircle } from "react-icons/fa";
 import { MdComputer, MdContactMail } from "react-icons/md";
 import NavLogo from "./Images/NavLogo.png";
 //Hashlink to go to about section from any page
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 
 function NavBar() {
   const [NavBar, setNavBar] = useState(false);
@@ -49,7 +49,11 @@ function NavBar() {
               <Nav.Link href="/Tags">Resources</Nav.Link>
               <div className="borderbottom"></div>
               <FaInfoCircle />
-              <Nav.Link ><HashLink className='hash-link' to="/#ab">About</HashLink></Nav.Link>
+              <Nav.Link>
+                <HashLink className="hash-link" to="/#ab">
+                  About
+                </HashLink>
+              </Nav.Link>
               <div className="borderbottom"></div>
               <MdContactMail />
               <Nav.Link href="/contactus">Contact</Nav.Link>
@@ -59,18 +63,6 @@ function NavBar() {
         </Navbar>
       </div>
     </IconContext.Provider>
-    // <div className='navbar'>
-    // <div className="brandName">
-    //     <img className='logo' src={brandIcon} alt='' />
-    //     <h1 className='title'>TITLE</h1>
-    // </div>
-    // <div className="navbutton">
-    //     <img src={homeIcon} alt='' /><a href='#home'>HOME</a>
-    //     <a href='#about'>ABOUT</a>
-    //     <a href='#resources'>RESOURCES</a>
-    //     <a href='#contact'>CONTACT</a>
-    // </div>
-    //     </div>
   );
 }
 

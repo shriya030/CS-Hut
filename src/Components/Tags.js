@@ -24,13 +24,7 @@ function Tags() {
       <div className="tags">
         <div className="headings">Tags</div>
         <div class="wrapper">
-          <div
-            class="card"
-            animate={{ rotate: 0, opacity: 1 }}
-            transition={{ duration: 2 }}
-            initial={{ opacity: 0, rotate: -90 }}
-            exit={{ opacity: 0 }}
-          >
+          <div class="card">
             <h3 class="card___title">PROGRAMMING LANGUAGES</h3>
             <div class="card__content">
               <div class="card__text">C</div>

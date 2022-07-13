@@ -1,7 +1,12 @@
 import Banner from "./Banner";
 import Aboutus from "./Aboutus";
 import Footer from "./Footer";
-import PropagateLoader from "react-spinners/PropagateLoader";
+
+
+
+
+ieLoader from "react-spinners/PropagateLoader";
+
 import React from "react";
 import {useState,useEffect} from 'react' 
 

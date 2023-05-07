@@ -17,8 +17,6 @@ import ErrorPage from "./Components/ErrorPage";
 import { AnimatePresence } from "framer-motion";
 import React from "react";
 
-console.log(languages);
-
 function App() {
   const location = useLocation();
   return (

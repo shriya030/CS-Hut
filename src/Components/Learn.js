@@ -24,7 +24,6 @@ const pageTransition2 = {
   }
 };
 function Learn(props) {
-  console.log(props.content.courses);
   return (
     <motion.div
       initial={{ scaleY: 0 }}

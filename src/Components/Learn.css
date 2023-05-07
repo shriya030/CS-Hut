@@ -1,4 +1,4 @@
-.learn .headings:hover {
+.learn .headings {
   text-shadow: 2px 3px 10px var(--SkyBlue);
   transform: scale(1.5);
   transition: 0.6s;

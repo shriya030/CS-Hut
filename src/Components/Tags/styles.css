@@ -19,7 +19,7 @@
 .lang{
   height: 100%;
 }
-.lang .headings:hover {
+.lang .headings {
   text-shadow: 2px 3px 10px var(--SkyBlue);
   transform: scale(1.5);
   transition: 0.6s;

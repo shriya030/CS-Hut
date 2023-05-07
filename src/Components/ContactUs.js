@@ -30,7 +30,7 @@ export default function ContactUs() {
 
             <form
               className="form"
-              action="https://formcarry.com/s/S2thQbCqEvW"
+              action="https://formsubmit.co/ashreyjairath@gmail.com"
               method="POST"
             >
               <div className="form-group">

@@ -1,7 +1,7 @@
 .tags a {
   text-decoration: none;
 }
-.tags .headings:hover {
+.tags .headings {
   text-shadow: 2px 3px 10px var(--SkyBlue);
   transform: scale(1.5);
   transition: 0.6s;
@@ -43,7 +43,7 @@
 .tags .card:hover {
   background-color: aliceblue;
   border: 5px solid #66f0f1;
-  transform: scale(0.9); 
+  transform: scale(0.9);
 }
  .tags .card___title{
      margin-top: 0;
